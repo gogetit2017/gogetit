@@ -1,0 +1,34 @@
+2017-05-17 00:33:45,161 [WIN-TLKRGH5LTV1][Thread:14][ERROR] DotNetNuke.Entities.Urls.UrlRewriterUtils - System.ArgumentException: parsing "a.button:a.button===4?Sys.UI.MouseButton.middleButton:a.button===2?Sys.UI.MouseButton.rightButton:Sys.UI.MouseButton.leftButton;if(b==.aspx" - Not enough )'s.
+   at System.Text.RegularExpressions.RegexParser.ScanRegex()
+   at System.Text.RegularExpressions.RegexParser.Parse(String re, RegexOptions op)
+   at System.Text.RegularExpressions.Regex..ctor(String pattern, RegexOptions options, TimeSpan matchTimeout, Boolean useCache)
+   at System.Text.RegularExpressions.Regex.Replace(String input, String pattern, String replacement, RegexOptions options)
+   at DotNetNuke.Entities.Urls.AdvancedFriendlyUrlProvider.GetFriendlyQueryString(TabInfo tab, String path, String pageName, FriendlyUrlSettings settings)
+   at DotNetNuke.Entities.Urls.AdvancedFriendlyUrlProvider.ImprovedFriendlyUrlWithMessages(TabInfo tab, String path, String pageName, String httpAlias, Boolean ignoreCustomRedirects, FriendlyUrlSettings settings, List`1& messages, Guid parentTraceId)
+   at DotNetNuke.Entities.Urls.AdvancedFriendlyUrlProvider.ImprovedFriendlyUrl(TabInfo tab, String path, String pageName, String httpAlias, Boolean ignoreCustomRedirects, FriendlyUrlSettings settings, Guid parentTraceId)
+   at DotNetNuke.Entities.Urls.AdvancedUrlRewriter.CheckForRedirects(Uri requestUri, String fullUrl, NameValueCollection queryStringCol, UrlAction result, String requestType, FriendlyUrlSettings settings, Int32 portalHomeTabId)
+   at DotNetNuke.Entities.Urls.AdvancedUrlRewriter.ProcessRequest(HttpContext context, Uri requestUri, Boolean useFriendlyUrls, UrlAction result, FriendlyUrlSettings settings, Boolean allowSettingsChange, Guid parentTraceId)
+2017-05-17 11:13:04,361 [WIN-TLKRGH5LTV1][Thread:29][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-05-17 11:13:49,437 [WIN-TLKRGH5LTV1][Thread:34][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-05-17 11:56:02,473 [WIN-TLKRGH5LTV1][Thread:7][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Web.Security.MembershipPasswordException: The user account has been locked out.
+   at System.Web.Security.SqlMembershipProvider.GetPassword(String username, String passwordAnswer)
+   at DotNetNuke.Entities.Users.UserController.GetPassword(UserInfo& user, String passwordAnswer)
+   at GoGetIt.ResetPasswordController.Save(String Guid, String NewPassword, String Email)
+2017-05-17 11:58:17,359 [WIN-TLKRGH5LTV1][Thread:7][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Web.Security.MembershipPasswordException: The user account has been locked out.
+   at System.Web.Security.SqlMembershipProvider.GetPassword(String username, String passwordAnswer)
+   at DotNetNuke.Entities.Users.UserController.GetPassword(UserInfo& user, String passwordAnswer)
+   at GoGetIt.ResetPasswordController.Save(String Guid, String NewPassword, String Email)
+2017-05-17 12:04:39,486 [WIN-TLKRGH5LTV1][Thread:7][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-05-17 12:42:12,267 [WIN-TLKRGH5LTV1][Thread:11][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-05-17 21:50:41,002 [WIN-TLKRGH5LTV1][Thread:13][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2017-05-17 23:16:06,822 [WIN-TLKRGH5LTV1][Thread:14][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()

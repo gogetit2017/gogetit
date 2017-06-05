@@ -1,0 +1,10 @@
+2015-11-14 16:52:09,523 [GRI-HOST-07][Thread:23][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 64.94.118.84:443
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at GoGetIt.CustomerProfileWS.Service.CreateCustomerProfile(MerchantAuthenticationType merchantAuthentication, CustomerProfileType profile, ValidationModeEnum validationMode)
+   at GoGetIt.CIM.CreateCustomerProfile(String Email, String DisplayName, Int32 UserID)
+   at GoGetIt.CreditCardController.Save(GRI_CreditCardInfo c)

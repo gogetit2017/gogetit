@@ -1,0 +1,62 @@
+2015-12-11 05:13:35,200 [GRI-HOST-07][Thread:28][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException (0x80004005): Server cannot set status after HTTP headers have been sent.
+   at System.Web.Http.WebHost.HttpControllerHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar)
+2015-12-11 05:13:35,928 [GRI-HOST-07][Thread:15][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException (0x80004005): Server cannot set status after HTTP headers have been sent.
+   at System.Web.Http.WebHost.HttpControllerHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar)
+2015-12-11 08:01:12,138 [GRI-HOST-07][Thread:17][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException (0x80004005): Server cannot set status after HTTP headers have been sent.
+   at System.Web.Http.WebHost.HttpControllerHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar)
+2015-12-11 08:01:12,694 [GRI-HOST-07][Thread:14][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException (0x80004005): Server cannot set status after HTTP headers have been sent.
+   at System.Web.Http.WebHost.HttpControllerHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar)
+2015-12-11 08:01:12,696 [GRI-HOST-07][Thread:17][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException (0x80004005): Server cannot set status after HTTP headers have been sent.
+   at System.Web.Http.WebHost.HttpControllerHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar)
+2015-12-11 09:39:36,733 [GRI-HOST-07][Thread:20][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Net.WebException: The operation has timed out
+   at System.Web.Services.Protocols.WebClientProtocol.GetWebResponse(WebRequest request)
+   at System.Web.Services.Protocols.HttpWebClientProtocol.GetWebResponse(WebRequest request)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at GoGetIt.CustomerProfileWS.Service.CreateCustomerProfileTransaction(MerchantAuthenticationType merchantAuthentication, ProfileTransactionType transaction, String extraOptions)
+   at GoGetIt.CIM.CreateTransaction(Int64 ProfileID, Int64 PaymentProfileID, Decimal Amount, Int32 InvoiceID, String& Message, String& Code)
+   at GoGetIt.Invoice.RunCreditCardProcessing(Int32 OrderID, Int32 ClientUserID, Decimal Tip, String& Message)
+2015-12-11 10:12:21,433 [GRI-HOST-07][Thread:3][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Exception: Invalid Password
+   at DotNetNuke.Entities.Users.UserController.ChangePassword(UserInfo user, String oldPassword, String newPassword)
+   at GoGetIt.ResetPasswordController.Save(String Guid, String NewPassword, String Email)
+2015-12-11 10:32:40,269 [GRI-HOST-07][Thread:10][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Web.Security.MembershipPasswordException: The user account has been locked out.
+   at System.Web.Security.SqlMembershipProvider.GetPassword(String username, String passwordAnswer)
+   at DotNetNuke.Entities.Users.UserController.GetPassword(UserInfo& user, String passwordAnswer)
+   at GoGetIt.ResetPasswordController.Save(String Guid, String NewPassword, String Email)
+2015-12-11 10:58:45,536 [GRI-HOST-07][Thread:10][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.InvalidOperationException: Sequence contains more than one element
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at GoGetIt.ZipCodeController.GetZipCodeIDByZipCode(String ZipCode)
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2015-12-11 23:00:06,899 [GRI-HOST-07][Thread:12][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Net.WebException: The remote name could not be resolved: 'api.authorize.net'
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at GoGetIt.CustomerProfileWS.Service.CreateCustomerProfileTransaction(MerchantAuthenticationType merchantAuthentication, ProfileTransactionType transaction, String extraOptions)
+   at GoGetIt.CIM.CreateTransaction(Int64 ProfileID, Int64 PaymentProfileID, Decimal Amount, Int32 InvoiceID, String& Message, String& Code)
+   at GoGetIt.Invoice.RunCreditCardProcessing(Int32 OrderID, Int32 ClientUserID, Decimal Tip, String& Message)
+2015-12-11 23:11:15,801 [GRI-HOST-07][Thread:13][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException (0x80004005): Server cannot set status after HTTP headers have been sent.
+   at System.Web.Http.WebHost.HttpControllerHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar)
+2015-12-11 23:11:16,525 [GRI-HOST-07][Thread:13][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException (0x80004005): Server cannot set status after HTTP headers have been sent.
+   at System.Web.Http.WebHost.HttpControllerHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar)
+2015-12-11 23:17:55,019 [GRI-HOST-07][Thread:15][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException (0x80004005): Server cannot set status after HTTP headers have been sent.
+   at System.Web.Http.WebHost.HttpControllerHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar)
+2015-12-11 23:18:07,781 [GRI-HOST-07][Thread:12][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException (0x80004005): Server cannot set status after HTTP headers have been sent.
+   at System.Web.Http.WebHost.HttpControllerHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar)
+2015-12-11 23:27:32,066 [GRI-HOST-07][Thread:8][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException (0x80004005): Server cannot set status after HTTP headers have been sent.
+   at System.Web.Http.WebHost.HttpControllerHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar)
+2015-12-11 23:37:31,195 [GRI-HOST-07][Thread:6][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException (0x80004005): Server cannot set status after HTTP headers have been sent.
+   at System.Web.Http.WebHost.HttpControllerHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar)
+2015-12-11 23:37:36,681 [GRI-HOST-07][Thread:10][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException (0x80004005): Server cannot set status after HTTP headers have been sent.
+   at System.Web.Http.WebHost.HttpControllerHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar)

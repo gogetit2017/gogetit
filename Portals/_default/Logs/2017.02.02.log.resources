@@ -1,0 +1,45 @@
+2017-02-02 01:41:06,598 [WIN-TLKRGH5LTV1][Thread:11][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2017-02-02 11:27:25,394 [WIN-TLKRGH5LTV1][Thread:35][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.computeDistance(String origin, String destination)
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-02-02 11:27:25,457 [WIN-TLKRGH5LTV1][Thread:50][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.computeDistance(String origin, String destination)
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-02-02 11:27:25,675 [WIN-TLKRGH5LTV1][Thread:50][ERROR] DotNetNuke.Services.Log.EventLog.DBLoggingProvider - System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Exceptions'. Cannot insert duplicate key in object 'dbo.Exceptions'. The duplicate key value is (iTA570hUWlZJ109CFPDhVA==).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at PetaPoco.Database.Execute(String sql, Object[] args)
+   at DotNetNuke.Data.SqlDataProvider.ExecuteNonQuery(String procedureName, Object[] commandParameters)
+   at DotNetNuke.Data.DataProvider.AddLog(String logGUID, String logTypeKey, Int32 logUserID, String logUserName, Int32 logPortalID, String logPortalName, DateTime logCreateDate, String logServerName, String logProperties, Int32 logConfigID, ExceptionInfo exception)
+   at DotNetNuke.Services.Log.EventLog.DBLoggingProvider.WriteLog(LogQueueItem logQueueItem)
+ClientConnectionId:e2c5d604-4408-4f0f-a847-ee06ffbd100a
+Error Number:2627,State:1,Class:14
+2017-02-02 11:27:25,754 [WIN-TLKRGH5LTV1][Thread:35][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException (0x80004005): Server cannot set status after HTTP headers have been sent.
+   at System.Web.Http.WebHost.HttpControllerHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar)
+2017-02-02 11:28:01,549 [WIN-TLKRGH5LTV1][Thread:35][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.computeDistance(String origin, String destination)
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-02-02 14:45:00,775 [WIN-TLKRGH5LTV1][Thread:48][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.computeDistance(String origin, String destination)
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-02-02 14:45:43,039 [WIN-TLKRGH5LTV1][Thread:22][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.computeDistance(String origin, String destination)
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-02-02 17:38:01,223 [WIN-TLKRGH5LTV1][Thread:73][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.computeDistance(String origin, String destination)
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-02-02 17:39:29,860 [WIN-TLKRGH5LTV1][Thread:67][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.computeDistance(String origin, String destination)
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-02-02 17:41:58,464 [WIN-TLKRGH5LTV1][Thread:64][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.computeDistance(String origin, String destination)
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)

@@ -1,0 +1,29 @@
+2016-12-01 06:09:56,166 [WIN-TLKRGH5LTV1][Thread:6][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2016-12-01 13:24:44,562 [WIN-TLKRGH5LTV1][Thread:11][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Web.Security.MembershipPasswordException: The user account has been locked out.
+   at System.Web.Security.SqlMembershipProvider.GetPassword(String username, String passwordAnswer)
+   at DotNetNuke.Entities.Users.UserController.GetPassword(UserInfo& user, String passwordAnswer)
+   at GoGetIt.ResetPasswordController.Save(String Guid, String NewPassword, String Email)
+2016-12-01 13:27:51,931 [WIN-TLKRGH5LTV1][Thread:20][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Web.Security.MembershipPasswordException: The user account has been locked out.
+   at System.Web.Security.SqlMembershipProvider.GetPassword(String username, String passwordAnswer)
+   at DotNetNuke.Entities.Users.UserController.GetPassword(UserInfo& user, String passwordAnswer)
+   at GoGetIt.ResetPasswordController.Save(String Guid, String NewPassword, String Email)
+2016-12-01 13:29:49,317 [WIN-TLKRGH5LTV1][Thread:15][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Web.Security.MembershipPasswordException: The user account has been locked out.
+   at System.Web.Security.SqlMembershipProvider.GetPassword(String username, String passwordAnswer)
+   at DotNetNuke.Entities.Users.UserController.GetPassword(UserInfo& user, String passwordAnswer)
+   at GoGetIt.ResetPasswordController.Save(String Guid, String NewPassword, String Email)
+2016-12-01 13:31:06,440 [WIN-TLKRGH5LTV1][Thread:28][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Web.Security.MembershipPasswordException: The user account has been locked out.
+   at System.Web.Security.SqlMembershipProvider.GetPassword(String username, String passwordAnswer)
+   at DotNetNuke.Entities.Users.UserController.GetPassword(UserInfo& user, String passwordAnswer)
+   at GoGetIt.ResetPasswordController.Save(String Guid, String NewPassword, String Email)
+2016-12-01 13:35:08,041 [WIN-TLKRGH5LTV1][Thread:19][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Web.Security.MembershipPasswordException: The user account has been locked out.
+   at System.Web.Security.SqlMembershipProvider.GetPassword(String username, String passwordAnswer)
+   at DotNetNuke.Entities.Users.UserController.GetPassword(UserInfo& user, String passwordAnswer)
+   at GoGetIt.ResetPasswordController.Save(String Guid, String NewPassword, String Email)
+2016-12-01 15:54:08,123 [WIN-TLKRGH5LTV1][Thread:26][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Exception: Invalid Password
+   at DotNetNuke.Entities.Users.UserController.ChangePassword(UserInfo user, String oldPassword, String newPassword)
+   at GoGetIt.ResetPasswordController.Save(String Guid, String NewPassword, String Email)
+2016-12-01 16:19:02,492 [WIN-TLKRGH5LTV1][Thread:15][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2016-12-01 18:34:22,207 [WIN-TLKRGH5LTV1][Thread:15][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()

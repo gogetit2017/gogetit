@@ -1,0 +1,12 @@
+2015-10-30 19:26:13,402 [GRI-HOST-07][Thread:8][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Configuration.Provider.ProviderException: Hashed passwords cannot be decoded.
+   at System.Web.Security.SqlMembershipProvider.GetPassword(String username, String passwordAnswer)
+   at DotNetNuke.Entities.Users.UserController.GetPassword(UserInfo& user, String passwordAnswer)
+   at GoGetIt.ResetPasswordController.Save(String Guid, String NewPassword, String Email)
+2015-10-30 19:28:57,276 [GRI-HOST-07][Thread:15][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Configuration.Provider.ProviderException: Hashed passwords cannot be decoded.
+   at System.Web.Security.SqlMembershipProvider.GetPassword(String username, String passwordAnswer)
+   at DotNetNuke.Entities.Users.UserController.GetPassword(UserInfo& user, String passwordAnswer)
+   at GoGetIt.ResetPasswordController.Save(String Guid, String NewPassword, String Email)
+2015-10-30 19:31:18,268 [GRI-HOST-07][Thread:8][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Configuration.Provider.ProviderException: Hashed passwords cannot be decoded.
+   at System.Web.Security.SqlMembershipProvider.GetPassword(String username, String passwordAnswer)
+   at DotNetNuke.Entities.Users.UserController.GetPassword(UserInfo& user, String passwordAnswer)
+   at GoGetIt.ResetPasswordController.Save(String Guid, String NewPassword, String Email)

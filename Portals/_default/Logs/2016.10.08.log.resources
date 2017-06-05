@@ -1,0 +1,16 @@
+2016-10-08 00:37:17,336 [WIN-TLKRGH5LTV1][Thread:21][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2016-10-08 01:13:34,853 [WIN-TLKRGH5LTV1][Thread:10][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2016-10-08 18:19:37,863 [WIN-TLKRGH5LTV1][Thread:28][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2016-10-08 18:55:20,647 [WIN-TLKRGH5LTV1][Thread:30][ERROR] DotNetNuke.Modules.Admin.Users.User - System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at DotNetNuke.Modules.Admin.Users.ManageUsers.UserUpdateCompleted(Object sender, EventArgs e)
+   at DotNetNuke.Entities.Modules.UserUserControlBase.OnUserUpdateCompleted(EventArgs e)
+   at DotNetNuke.Modules.Admin.Users.User.cmdUpdate_Click(Object sender, EventArgs e)
+2016-10-08 23:58:36,165 [WIN-TLKRGH5LTV1][Thread:8][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()

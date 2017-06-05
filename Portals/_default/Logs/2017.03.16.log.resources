@@ -1,0 +1,72 @@
+2017-03-16 04:38:36,431 [WIN-TLKRGH5LTV1][Thread:6][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2017-03-16 04:38:36,728 [WIN-TLKRGH5LTV1][Thread:6][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2017-03-16 09:05:13,229 [WIN-TLKRGH5LTV1][Thread:7][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at GoGetIt.OrderController.Set(GRI_Order order)
+2017-03-16 09:05:23,166 [WIN-TLKRGH5LTV1][Thread:7][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at GoGetIt.OrderController.Set(GRI_Order order)
+2017-03-16 09:05:58,696 [WIN-TLKRGH5LTV1][Thread:22][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at GoGetIt.OrderController.Set(GRI_Order order)
+2017-03-16 09:06:55,225 [WIN-TLKRGH5LTV1][Thread:15][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at GoGetIt.OrderController.Set(GRI_Order order)
+2017-03-16 09:42:43,728 [WIN-TLKRGH5LTV1][Thread:11][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2017-03-16 10:42:13,852 [WIN-TLKRGH5LTV1][Thread:15][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-03-16 12:24:52,636 [WIN-TLKRGH5LTV1][Thread:12][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-03-16 13:16:43,449 [WIN-TLKRGH5LTV1][Thread:42][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-03-16 13:50:24,929 [WIN-TLKRGH5LTV1][Thread:29][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-03-16 14:22:14,201 [WIN-TLKRGH5LTV1][Thread:12][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Data.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.EntityClient.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   --- End of inner exception stack trace ---
+   at System.Data.EntityClient.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   at System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Objects.ObjectQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at GoGetIt.OrderController.List(SearchInfoMember`1 si)
+2017-03-16 15:21:39,329 [WIN-TLKRGH5LTV1][Thread:19][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-03-16 16:01:18,227 [WIN-TLKRGH5LTV1][Thread:37][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-03-16 16:54:42,911 [WIN-TLKRGH5LTV1][Thread:23][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-03-16 17:00:08,181 [WIN-TLKRGH5LTV1][Thread:10][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-03-16 17:02:59,224 [WIN-TLKRGH5LTV1][Thread:14][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-03-16 17:03:02,519 [WIN-TLKRGH5LTV1][Thread:33][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at GoGetIt.OrderController.Set(GRI_Order order)
+2017-03-16 17:03:02,761 [WIN-TLKRGH5LTV1][Thread:33][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at GoGetIt.OrderController.Set(GRI_DriverOrder driverOrder)

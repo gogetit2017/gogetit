@@ -1,0 +1,15 @@
+2017-05-16 10:52:02,002 [WIN-TLKRGH5LTV1][Thread:30][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-05-16 10:59:39,767 [WIN-TLKRGH5LTV1][Thread:23][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-05-16 11:55:41,414 [WIN-TLKRGH5LTV1][Thread:29][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-05-16 12:35:36,346 [WIN-TLKRGH5LTV1][Thread:37][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at GoGetIt.OrderController.Set(GRI_Order order)
+2017-05-16 12:35:36,362 [WIN-TLKRGH5LTV1][Thread:37][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at GoGetIt.OrderController.Set(GRI_DriverOrder driverOrder)

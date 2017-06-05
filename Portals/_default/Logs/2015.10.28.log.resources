@@ -1,0 +1,4 @@
+2015-10-28 01:26:00,246 [GRI-HOST-07][Thread:18][ERROR] DotNetNuke.Services.Exceptions.Exceptions - FriendlyMessage="Error:  is currently unavailable." ctrl="ASP.desktopmodules_admin_security_manageusers_ascx" exc="System.Configuration.Provider.ProviderException: Hashed passwords cannot be decoded.
+   at System.Web.Security.SqlMembershipProvider.GetPassword(String username, String passwordAnswer)
+   at DotNetNuke.Entities.Users.UserController.GetPassword(UserInfo& user, String passwordAnswer)
+   at DotNetNuke.Modules.Admin.Users.ManageUsers.MembershipAuthorized(Object sender, EventArgs e)"

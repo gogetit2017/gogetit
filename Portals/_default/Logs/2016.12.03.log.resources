@@ -1,0 +1,2 @@
+2016-12-03 09:12:58,884 [WIN-TLKRGH5LTV1][Thread:19][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()

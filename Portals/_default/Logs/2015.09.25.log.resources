@@ -1,0 +1,124 @@
+2015-09-25 02:37:20,405 [GRI-HOST-07][Thread:7][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.Set(GRI_DriverOrder driverOrder)
+2015-09-25 02:43:40,553 [GRI-HOST-07][Thread:16][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.Get(Int32 OrderID)
+2015-09-25 02:43:40,571 [GRI-HOST-07][Thread:17][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.Get(Int32 OrderID)
+2015-09-25 02:43:40,988 [GRI-HOST-07][Thread:17][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.Get(Int32 OrderID)
+2015-09-25 03:00:43,530 [GRI-HOST-07][Thread:16][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Configuration.Provider.ProviderException: Hashed passwords cannot be decoded.
+   at System.Web.Security.SqlMembershipProvider.GetPassword(String username, String passwordAnswer)
+   at DotNetNuke.Entities.Users.UserController.GetPassword(UserInfo& user, String passwordAnswer)
+   at GoGetIt.ResetPasswordController.UpdatePassword(Int32 UserID, String NewPassword, String OldPassword)
+2015-09-25 06:09:42,799 [GRI-HOST-07][Thread:30][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.Get(Int32 OrderID)
+2015-09-25 06:09:47,959 [GRI-HOST-07][Thread:30][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.Get(Int32 OrderID)
+2015-09-25 06:09:50,898 [GRI-HOST-07][Thread:27][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.Get(Int32 OrderID)
+2015-09-25 06:11:01,172 [GRI-HOST-07][Thread:27][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.Get(Int32 OrderID)
+2015-09-25 06:11:04,162 [GRI-HOST-07][Thread:27][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.Get(Int32 OrderID)
+2015-09-25 06:16:34,890 [GRI-HOST-07][Thread:30][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.Get(Int32 OrderID)
+2015-09-25 06:16:45,217 [GRI-HOST-07][Thread:27][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.Get(Int32 OrderID)
+2015-09-25 06:17:08,184 [GRI-HOST-07][Thread:30][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.Get(Int32 OrderID)
+2015-09-25 06:17:12,382 [GRI-HOST-07][Thread:26][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.Get(Int32 OrderID)
+2015-09-25 06:17:43,864 [GRI-HOST-07][Thread:25][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.Get(Int32 OrderID)
+2015-09-25 06:17:47,251 [GRI-HOST-07][Thread:25][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.Get(Int32 OrderID)
+2015-09-25 06:18:45,731 [GRI-HOST-07][Thread:25][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.Get(Int32 OrderID)
+2015-09-25 06:18:47,523 [GRI-HOST-07][Thread:30][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.Get(Int32 OrderID)
+2015-09-25 06:18:55,661 [GRI-HOST-07][Thread:25][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.Get(Int32 OrderID)
+2015-09-25 06:25:17,509 [GRI-HOST-07][Thread:30][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.Web.HttpCompileException (0x80004005): c:\inetpub\GoGetIt\DesktopModules\ForgotPassword\ForgotPassword.ascx(31): error CS1061: 'ASP.desktopmodules_forgotpassword_forgotpassword_ascx' does not contain a definition for 'lnkSendPassword_Click' and no extension method 'lnkSendPassword_Click' accepting a first argument of type 'ASP.desktopmodules_forgotpassword_forgotpassword_ascx' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2015-09-25 06:25:17,614 [GRI-HOST-07][Thread:30][ERROR] DotNetNuke.Services.Exceptions.Exceptions - FriendlyMessage="Error: ForgotPassword is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpCompileException (0x80004005): c:\inetpub\GoGetIt\DesktopModules\ForgotPassword\ForgotPassword.ascx(31): error CS1061: 'ASP.desktopmodules_forgotpassword_forgotpassword_ascx' does not contain a definition for 'lnkSendPassword_Click' and no extension method 'lnkSendPassword_Click' accepting a first argument of type 'ASP.desktopmodules_forgotpassword_forgotpassword_ascx' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()"
+2015-09-25 06:32:18,960 [GRI-HOST-07][Thread:28][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.Get(Int32 OrderID)
+2015-09-25 06:32:24,087 [GRI-HOST-07][Thread:26][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.Get(Int32 OrderID)
+2015-09-25 06:32:49,816 [GRI-HOST-07][Thread:28][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.Get(Int32 OrderID)
+2015-09-25 06:53:50,449 [GRI-HOST-07][Thread:25][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.IO.FileNotFoundException: Could not find file 'c:\Inetpub\GoGetIt\EmailTemplate\ForgotPassword.htm'.
+File name: 'c:\Inetpub\GoGetIt\EmailTemplate\ForgotPassword.htm'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at GoGetIt.SendEmail.EmailNotification.SendEmail(EmailTemplate EmailToSend, List`1 lstDictionary, String EmailTo, String EmailFrom, String AttachmentFilename)
+2015-09-25 08:52:18,532 [GRI-HOST-07][Thread:34][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.SendEmail.EmailNotification.OrderPlaced(GRI_Order or, String EmailTo, String Driver, String DriverPhone, GRI_Address PickupAddress, GRI_Address DeliverAddress)
+2015-09-25 08:52:18,546 [GRI-HOST-07][Thread:28][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.SendEmail.EmailNotification.OrderPlaced(GRI_Order or, String EmailTo, String Driver, String DriverPhone, GRI_Address PickupAddress, GRI_Address DeliverAddress)
+2015-09-25 08:52:18,553 [GRI-HOST-07][Thread:20][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.SendEmail.EmailNotification.OrderPlaced(GRI_Order or, String EmailTo, String Driver, String DriverPhone, GRI_Address PickupAddress, GRI_Address DeliverAddress)
+2015-09-25 08:52:24,746 [GRI-HOST-07][Thread:33][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.SendEmail.EmailNotification.OrderPlaced(GRI_Order or, String EmailTo, String Driver, String DriverPhone, GRI_Address PickupAddress, GRI_Address DeliverAddress)
+2015-09-25 08:54:25,048 [GRI-HOST-07][Thread:30][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.SendEmail.EmailNotification.OrderPlaced(GRI_Order or, String EmailTo, String Driver, String DriverPhone, GRI_Address PickupAddress, GRI_Address DeliverAddress)
+2015-09-25 08:59:41,174 [GRI-HOST-07][Thread:18][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.SendEmail.EmailNotification.OrderPlaced(GRI_Order or, String EmailTo, String Driver, String DriverPhone, GRI_Address PickupAddress, GRI_Address DeliverAddress)
+2015-09-25 09:18:38,124 [GRI-HOST-07][Thread:14][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.SendEmail.EmailNotification.OrderPlaced(GRI_Order or, String EmailTo, String Driver, String DriverPhone, GRI_Address PickupAddress, GRI_Address DeliverAddress)
+2015-09-25 10:10:17,371 [GRI-HOST-07][Thread:15][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.ResetPasswordController.Save(String Guid, String NewPassword, String Email)
+2015-09-25 10:11:16,131 [GRI-HOST-07][Thread:22][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.ResetPasswordController.Save(String Guid, String NewPassword, String Email)
+2015-09-25 10:17:44,999 [GRI-HOST-07][Thread:22][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.ResetPasswordController.Save(String Guid, String NewPassword, String Email)
+2015-09-25 10:20:33,061 [GRI-HOST-07][Thread:3][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Configuration.Provider.ProviderException: Hashed passwords cannot be decoded.
+   at System.Web.Security.SqlMembershipProvider.GetPassword(String username, String passwordAnswer)
+   at DotNetNuke.Entities.Users.UserController.GetPassword(UserInfo& user, String passwordAnswer)
+   at GoGetIt.ResetPasswordController.UpdatePassword(Int32 UserID, String NewPassword, String OldPassword)
+2015-09-25 18:41:29,804 [GRI-HOST-07][Thread:25][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Configuration.Provider.ProviderException: Hashed passwords cannot be decoded.
+   at System.Web.Security.SqlMembershipProvider.GetPassword(String username, String passwordAnswer)
+   at DotNetNuke.Entities.Users.UserController.GetPassword(UserInfo& user, String passwordAnswer)
+   at GoGetIt.ResetPasswordController.UpdatePassword(Int32 UserID, String NewPassword, String OldPassword)
+2015-09-25 23:05:04,547 [GRI-HOST-07][Thread:7][ERROR] DotNetNuke.Services.Scheduling.SchedulerClient - Lucene.Net.Store.AlreadyClosedException: this IndexWriter is closed
+   at Lucene.Net.Index.IndexWriter.EnsureOpen(Boolean includePendingClose)
+   at Lucene.Net.Index.IndexWriter.EnsureOpen()
+   at Lucene.Net.Index.IndexWriter.DeleteDocuments(Query query)
+   at DotNetNuke.Services.Search.Internals.InternalSearchControllerImpl.DeleteSearchDocumentInternal(SearchDocument searchDocument, Boolean autoCommit)
+   at DotNetNuke.Services.Search.SearchDataStore.StoreSearchItems(SearchItemInfoCollection searchItems)
+   at DotNetNuke.Services.Search.SearchEngine.IndexContent(DateTime startDate)
+   at DotNetNuke.Services.Search.SearchEngineScheduler.DoWork()
+2015-09-25 23:05:04,589 [GRI-HOST-07][Thread:7][ERROR] DotNetNuke.Services.Exceptions.Exceptions - Lucene.Net.Store.AlreadyClosedException: this IndexWriter is closed
+   at Lucene.Net.Index.IndexWriter.EnsureOpen(Boolean includePendingClose)
+   at Lucene.Net.Index.IndexWriter.EnsureOpen()
+   at Lucene.Net.Index.IndexWriter.DeleteDocuments(Query query)
+   at DotNetNuke.Services.Search.Internals.InternalSearchControllerImpl.DeleteSearchDocumentInternal(SearchDocument searchDocument, Boolean autoCommit)
+   at DotNetNuke.Services.Search.SearchDataStore.StoreSearchItems(SearchItemInfoCollection searchItems)
+   at DotNetNuke.Services.Search.SearchEngine.IndexContent(DateTime startDate)
+   at DotNetNuke.Services.Search.SearchEngineScheduler.DoWork()
+2015-09-25 23:05:04,620 [GRI-HOST-07][Thread:7][ERROR] DotNetNuke.Services.Exceptions.Exceptions - Lucene.Net.Store.AlreadyClosedException: this IndexWriter is closed
+   at Lucene.Net.Index.IndexWriter.EnsureOpen(Boolean includePendingClose)
+   at Lucene.Net.Index.IndexWriter.EnsureOpen()
+   at Lucene.Net.Index.IndexWriter.DeleteDocuments(Query query)
+   at DotNetNuke.Services.Search.Internals.InternalSearchControllerImpl.DeleteSearchDocumentInternal(SearchDocument searchDocument, Boolean autoCommit)
+   at DotNetNuke.Services.Search.SearchDataStore.StoreSearchItems(SearchItemInfoCollection searchItems)
+   at DotNetNuke.Services.Search.SearchEngine.IndexContent(DateTime startDate)
+   at DotNetNuke.Services.Search.SearchEngineScheduler.DoWork()

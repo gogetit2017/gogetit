@@ -1,0 +1,5 @@
+2015-11-30 09:47:31,967 [GRI-HOST-07][Thread:14][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.InvalidOperationException: Sequence contains more than one element
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at GoGetIt.ZipCodeController.GetZipCodeIDByZipCode(String ZipCode)
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)

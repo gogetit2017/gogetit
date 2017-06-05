@@ -1,0 +1,29 @@
+2017-02-09 09:14:52,735 [WIN-TLKRGH5LTV1][Thread:3][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.computeDistance(String origin, String destination)
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-02-09 09:55:09,744 [WIN-TLKRGH5LTV1][Thread:22][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.computeDistance(String origin, String destination)
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-02-09 09:55:09,853 [WIN-TLKRGH5LTV1][Thread:22][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.computeDistance(String origin, String destination)
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-02-09 09:56:36,553 [WIN-TLKRGH5LTV1][Thread:28][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.computeDistance(String origin, String destination)
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-02-09 09:57:29,911 [WIN-TLKRGH5LTV1][Thread:31][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.computeDistance(String origin, String destination)
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-02-09 11:12:03,582 [WIN-TLKRGH5LTV1][Thread:20][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.computeDistance(String origin, String destination)
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-02-09 11:14:24,514 [WIN-TLKRGH5LTV1][Thread:21][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.computeDistance(String origin, String destination)
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-02-09 11:15:23,965 [WIN-TLKRGH5LTV1][Thread:23][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.computeDistance(String origin, String destination)
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-02-09 11:37:06,685 [WIN-TLKRGH5LTV1][Thread:15][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.computeDistance(String origin, String destination)
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-02-09 23:11:06,051 [WIN-TLKRGH5LTV1][Thread:8][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()

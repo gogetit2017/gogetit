@@ -1,0 +1,221 @@
+2015-08-14 01:47:02,341 [GRI-HOST-07][Thread:23][ERROR] DotNetNuke.Services.Exceptions.Exceptions - DotNetNuke.Services.Exceptions.PageLoadException: Unhandled error loading page. ---> System.Web.HttpException: The file '/Portals/_default/Skins/GoGetIt/Dark.ascx' does not exist.
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Skins.Skin.LoadSkin(PageBase page, String skinPath)
+   --- End of inner exception stack trace ---
+2015-08-14 01:47:43,102 [GRI-HOST-07][Thread:19][ERROR] DotNetNuke.Services.Exceptions.Exceptions - DotNetNuke.Services.Exceptions.PageLoadException: Unhandled error loading page. ---> System.Web.HttpException: The file '/Portals/_default/Skins/GoGetIt/Dark.ascx' does not exist.
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Skins.Skin.LoadSkin(PageBase page, String skinPath)
+   --- End of inner exception stack trace ---
+2015-08-14 01:47:43,508 [GRI-HOST-07][Thread:23][ERROR] DotNetNuke.Services.Exceptions.Exceptions - DotNetNuke.Services.Exceptions.PageLoadException: Unhandled error loading page. ---> System.Web.HttpException: The file '/Portals/_default/Skins/GoGetIt/Dark.ascx' does not exist.
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Skins.Skin.LoadSkin(PageBase page, String skinPath)
+   --- End of inner exception stack trace ---
+2015-08-14 02:06:59,320 [GRI-HOST-07][Thread:19][ERROR] DotNetNuke.Services.Exceptions.Exceptions - DotNetNuke.Services.Exceptions.PageLoadException: Unhandled error loading page. ---> System.Web.HttpException: The file '/Portals/_default/Skins/GoGetIt/Dark.ascx' does not exist.
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Skins.Skin.LoadSkin(PageBase page, String skinPath)
+   --- End of inner exception stack trace ---
+2015-08-14 02:07:28,505 [GRI-HOST-07][Thread:22][ERROR] DotNetNuke.Services.Exceptions.Exceptions - DotNetNuke.Services.Exceptions.PageLoadException: Unhandled error loading page. ---> System.Web.HttpException: The file '/Portals/_default/Skins/GoGetIt/Dark.ascx' does not exist.
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Skins.Skin.LoadSkin(PageBase page, String skinPath)
+   --- End of inner exception stack trace ---
+2015-08-14 02:11:19,719 [GRI-HOST-07][Thread:24][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentOutOfRangeException: The argument 'portalId' cannot be negative.
+Parameter name: portalId
+   at DotNetNuke.Common.Requires.NotNegative(String argName, Int32 argValue)
+   at DotNetNuke.Entities.Tabs.TabVersions.TabVersionSettings.IsVersioningEnabled(Int32 portalId, Int32 tabId)
+   at DotNetNuke.Entities.Tabs.TabChangeSettings.GetChangeControlState(Int32 portalId, Int32 tabId)
+   at DotNetNuke.Entities.Tabs.TabController.SoftDeleteTabInternal(TabInfo tabToDelete, PortalSettings portalSettings)
+   at DotNetNuke.Entities.Tabs.TabController.SoftDeleteTab(Int32 tabId, PortalSettings portalSettings)
+   at DesktopModules.Admin.Tabs.View.CtlPagesContextMenuItemClick(Object sender, RadTreeViewContextMenuEventArgs e)
+   at Telerik.Web.UI.RadTreeView.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2015-08-14 02:11:19,735 [GRI-HOST-07][Thread:24][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=63&error=The+argument+%27portalId%27+cannot+be+negative.%0d%0aParameter+name%3a+portalId&content=0
+System.ArgumentOutOfRangeException: The argument 'portalId' cannot be negative.
+Parameter name: portalId
+   at DotNetNuke.Common.Requires.NotNegative(String argName, Int32 argValue)
+   at DotNetNuke.Entities.Tabs.TabVersions.TabVersionSettings.IsVersioningEnabled(Int32 portalId, Int32 tabId)
+   at DotNetNuke.Entities.Tabs.TabChangeSettings.GetChangeControlState(Int32 portalId, Int32 tabId)
+   at DotNetNuke.Entities.Tabs.TabController.SoftDeleteTabInternal(TabInfo tabToDelete, PortalSettings portalSettings)
+   at DotNetNuke.Entities.Tabs.TabController.SoftDeleteTab(Int32 tabId, PortalSettings portalSettings)
+   at DesktopModules.Admin.Tabs.View.CtlPagesContextMenuItemClick(Object sender, RadTreeViewContextMenuEventArgs e)
+   at Telerik.Web.UI.RadTreeView.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2015-08-14 02:12:12,434 [GRI-HOST-07][Thread:24][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentOutOfRangeException: The argument 'portalId' cannot be negative.
+Parameter name: portalId
+   at DotNetNuke.Common.Requires.NotNegative(String argName, Int32 argValue)
+   at DotNetNuke.Entities.Tabs.TabVersions.TabVersionSettings.IsVersioningEnabled(Int32 portalId, Int32 tabId)
+   at DotNetNuke.Entities.Tabs.TabChangeSettings.GetChangeControlState(Int32 portalId, Int32 tabId)
+   at DotNetNuke.Entities.Tabs.TabController.SoftDeleteTabInternal(TabInfo tabToDelete, PortalSettings portalSettings)
+   at DotNetNuke.Entities.Tabs.TabController.SoftDeleteTab(Int32 tabId, PortalSettings portalSettings)
+   at DesktopModules.Admin.Tabs.View.CtlPagesContextMenuItemClick(Object sender, RadTreeViewContextMenuEventArgs e)
+   at Telerik.Web.UI.RadTreeView.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2015-08-14 02:12:12,434 [GRI-HOST-07][Thread:24][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=63&error=The+argument+%27portalId%27+cannot+be+negative.%0d%0aParameter+name%3a+portalId&content=0
+System.ArgumentOutOfRangeException: The argument 'portalId' cannot be negative.
+Parameter name: portalId
+   at DotNetNuke.Common.Requires.NotNegative(String argName, Int32 argValue)
+   at DotNetNuke.Entities.Tabs.TabVersions.TabVersionSettings.IsVersioningEnabled(Int32 portalId, Int32 tabId)
+   at DotNetNuke.Entities.Tabs.TabChangeSettings.GetChangeControlState(Int32 portalId, Int32 tabId)
+   at DotNetNuke.Entities.Tabs.TabController.SoftDeleteTabInternal(TabInfo tabToDelete, PortalSettings portalSettings)
+   at DotNetNuke.Entities.Tabs.TabController.SoftDeleteTab(Int32 tabId, PortalSettings portalSettings)
+   at DesktopModules.Admin.Tabs.View.CtlPagesContextMenuItemClick(Object sender, RadTreeViewContextMenuEventArgs e)
+   at Telerik.Web.UI.RadTreeView.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2015-08-14 02:22:28,467 [GRI-HOST-07][Thread:21][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentOutOfRangeException: The argument 'portalId' cannot be negative.
+Parameter name: portalId
+   at DotNetNuke.Common.Requires.NotNegative(String argName, Int32 argValue)
+   at DotNetNuke.Entities.Tabs.TabVersions.TabVersionSettings.IsVersioningEnabled(Int32 portalId, Int32 tabId)
+   at DotNetNuke.Entities.Tabs.TabChangeSettings.GetChangeControlState(Int32 portalId, Int32 tabId)
+   at DotNetNuke.Entities.Tabs.TabController.SoftDeleteTabInternal(TabInfo tabToDelete, PortalSettings portalSettings)
+   at DotNetNuke.Entities.Tabs.TabController.SoftDeleteTab(Int32 tabId, PortalSettings portalSettings)
+   at DesktopModules.Admin.Tabs.View.CtlPagesContextMenuItemClick(Object sender, RadTreeViewContextMenuEventArgs e)
+   at Telerik.Web.UI.RadTreeView.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2015-08-14 02:22:28,467 [GRI-HOST-07][Thread:21][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=63&error=The+argument+%27portalId%27+cannot+be+negative.%0d%0aParameter+name%3a+portalId&content=0
+System.ArgumentOutOfRangeException: The argument 'portalId' cannot be negative.
+Parameter name: portalId
+   at DotNetNuke.Common.Requires.NotNegative(String argName, Int32 argValue)
+   at DotNetNuke.Entities.Tabs.TabVersions.TabVersionSettings.IsVersioningEnabled(Int32 portalId, Int32 tabId)
+   at DotNetNuke.Entities.Tabs.TabChangeSettings.GetChangeControlState(Int32 portalId, Int32 tabId)
+   at DotNetNuke.Entities.Tabs.TabController.SoftDeleteTabInternal(TabInfo tabToDelete, PortalSettings portalSettings)
+   at DotNetNuke.Entities.Tabs.TabController.SoftDeleteTab(Int32 tabId, PortalSettings portalSettings)
+   at DesktopModules.Admin.Tabs.View.CtlPagesContextMenuItemClick(Object sender, RadTreeViewContextMenuEventArgs e)
+   at Telerik.Web.UI.RadTreeView.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2015-08-14 06:24:16,633 [GRI-HOST-07][Thread:14][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException (0x80004005): A potentially dangerous Request.Path value was detected from the client (<).
+   at System.Web.HttpRequest.ValidateInputIfRequiredByConfig()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+2015-08-14 06:56:42,017 [GRI-HOST-07][Thread:18][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Security.Permissions.PermissionController.<>c__DisplayClassc.<GetPermissionsByModule>b__b(PermissionInfo p)
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at DotNetNuke.Security.Permissions.PermissionController.GetPermissionsByModule(Int32 moduleId, Int32 tabId)
+   at DotNetNuke.Security.Permissions.Controls.ModulePermissionsGrid.GetPermissions()
+   at DotNetNuke.Security.Permissions.Controls.PermissionsGrid.CreateChildControls()
+   at DotNetNuke.Security.Permissions.Controls.ModulePermissionsGrid.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.FindControl(String id, Int32 pathOffset)
+   at System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2015-08-14 06:56:42,173 [GRI-HOST-07][Thread:18][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=92&error=Object+reference+not+set+to+an+instance+of+an+object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Security.Permissions.PermissionController.<>c__DisplayClassc.<GetPermissionsByModule>b__b(PermissionInfo p)
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at DotNetNuke.Security.Permissions.PermissionController.GetPermissionsByModule(Int32 moduleId, Int32 tabId)
+   at DotNetNuke.Security.Permissions.Controls.ModulePermissionsGrid.GetPermissions()
+   at DotNetNuke.Security.Permissions.Controls.PermissionsGrid.CreateChildControls()
+   at DotNetNuke.Security.Permissions.Controls.ModulePermissionsGrid.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.FindControl(String id, Int32 pathOffset)
+   at System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2015-08-14 06:56:58,434 [GRI-HOST-07][Thread:7][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Security.Permissions.PermissionController.<>c__DisplayClassc.<GetPermissionsByModule>b__b(PermissionInfo p)
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at DotNetNuke.Security.Permissions.PermissionController.GetPermissionsByModule(Int32 moduleId, Int32 tabId)
+   at DotNetNuke.Security.Permissions.Controls.ModulePermissionsGrid.GetPermissions()
+   at DotNetNuke.Security.Permissions.Controls.PermissionsGrid.CreateChildControls()
+   at DotNetNuke.Security.Permissions.Controls.ModulePermissionsGrid.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.FindControl(String id, Int32 pathOffset)
+   at System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2015-08-14 06:56:58,434 [GRI-HOST-07][Thread:7][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=92&error=Object+reference+not+set+to+an+instance+of+an+object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Security.Permissions.PermissionController.<>c__DisplayClassc.<GetPermissionsByModule>b__b(PermissionInfo p)
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at DotNetNuke.Security.Permissions.PermissionController.GetPermissionsByModule(Int32 moduleId, Int32 tabId)
+   at DotNetNuke.Security.Permissions.Controls.ModulePermissionsGrid.GetPermissions()
+   at DotNetNuke.Security.Permissions.Controls.PermissionsGrid.CreateChildControls()
+   at DotNetNuke.Security.Permissions.Controls.ModulePermissionsGrid.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.FindControl(String id, Int32 pathOffset)
+   at System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2015-08-14 06:57:20,567 [GRI-HOST-07][Thread:7][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Security.Permissions.PermissionController.<>c__DisplayClassc.<GetPermissionsByModule>b__b(PermissionInfo p)
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at DotNetNuke.Security.Permissions.PermissionController.GetPermissionsByModule(Int32 moduleId, Int32 tabId)
+   at DotNetNuke.Security.Permissions.Controls.ModulePermissionsGrid.GetPermissions()
+   at DotNetNuke.Security.Permissions.Controls.PermissionsGrid.CreateChildControls()
+   at DotNetNuke.Security.Permissions.Controls.ModulePermissionsGrid.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.FindControl(String id, Int32 pathOffset)
+   at System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2015-08-14 06:57:20,567 [GRI-HOST-07][Thread:7][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=92&error=Object+reference+not+set+to+an+instance+of+an+object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Security.Permissions.PermissionController.<>c__DisplayClassc.<GetPermissionsByModule>b__b(PermissionInfo p)
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at DotNetNuke.Security.Permissions.PermissionController.GetPermissionsByModule(Int32 moduleId, Int32 tabId)
+   at DotNetNuke.Security.Permissions.Controls.ModulePermissionsGrid.GetPermissions()
+   at DotNetNuke.Security.Permissions.Controls.PermissionsGrid.CreateChildControls()
+   at DotNetNuke.Security.Permissions.Controls.ModulePermissionsGrid.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.FindControl(String id, Int32 pathOffset)
+   at System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2015-08-14 06:57:46,862 [GRI-HOST-07][Thread:7][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Security.Permissions.PermissionController.<>c__DisplayClassc.<GetPermissionsByModule>b__b(PermissionInfo p)
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at DotNetNuke.Security.Permissions.PermissionController.GetPermissionsByModule(Int32 moduleId, Int32 tabId)
+   at DotNetNuke.Security.Permissions.Controls.ModulePermissionsGrid.GetPermissions()
+   at DotNetNuke.Security.Permissions.Controls.PermissionsGrid.CreateChildControls()
+   at DotNetNuke.Security.Permissions.Controls.ModulePermissionsGrid.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.FindControl(String id, Int32 pathOffset)
+   at System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2015-08-14 06:57:46,862 [GRI-HOST-07][Thread:7][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=92&error=Object+reference+not+set+to+an+instance+of+an+object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Security.Permissions.PermissionController.<>c__DisplayClassc.<GetPermissionsByModule>b__b(PermissionInfo p)
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at DotNetNuke.Security.Permissions.PermissionController.GetPermissionsByModule(Int32 moduleId, Int32 tabId)
+   at DotNetNuke.Security.Permissions.Controls.ModulePermissionsGrid.GetPermissions()
+   at DotNetNuke.Security.Permissions.Controls.PermissionsGrid.CreateChildControls()
+   at DotNetNuke.Security.Permissions.Controls.ModulePermissionsGrid.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.FindControl(String id, Int32 pathOffset)
+   at System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)

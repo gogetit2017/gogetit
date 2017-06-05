@@ -1,0 +1,29 @@
+
+body
+{
+    font-family: Roboto light;
+	background-color:#000;
+	color:#fff;
+	 font-family: Roboto thin;
+	   
+}
+
+
+.navbar
+{
+    box-shadow: none;
+}
+
+.navbar-default
+{
+    background-color: #272526;
+    background-image: none;
+    border: none;
+}
+#txtEmail
+{
+float: left; width: 80%; height: 55px;
+border-radius: 25px 0 0 25px;
+ font-size: 16px;
+  font-style: italic;
+}

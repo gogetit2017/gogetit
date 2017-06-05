@@ -1,0 +1,29 @@
+2016-10-23 13:35:33,227 [WIN-TLKRGH5LTV1][Thread:14][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2016-10-23 20:55:26,987 [WIN-TLKRGH5LTV1][Thread:30][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.RegisteredUserController.Set(GRI_RegisteredUser RegisteredUser)
+   at GoGetIt.RegisteredUserController.UpdatePhone(String Phone)
+2016-10-23 20:55:29,065 [WIN-TLKRGH5LTV1][Thread:34][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.RegisteredUserController.Set(GRI_RegisteredUser RegisteredUser)
+   at GoGetIt.RegisteredUserController.UpdatePhone(String Phone)
+2016-10-23 20:55:30,175 [WIN-TLKRGH5LTV1][Thread:12][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.RegisteredUserController.Set(GRI_RegisteredUser RegisteredUser)
+   at GoGetIt.RegisteredUserController.UpdatePhone(String Phone)
+2016-10-23 20:55:30,690 [WIN-TLKRGH5LTV1][Thread:32][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.RegisteredUserController.Set(GRI_RegisteredUser RegisteredUser)
+   at GoGetIt.RegisteredUserController.UpdatePhone(String Phone)
+2016-10-23 20:55:40,596 [WIN-TLKRGH5LTV1][Thread:34][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.RegisteredUserController.Set(GRI_RegisteredUser RegisteredUser)
+   at GoGetIt.RegisteredUserController.UpdatePhone(String Phone)
+2016-10-23 20:55:41,315 [WIN-TLKRGH5LTV1][Thread:16][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.RegisteredUserController.Set(GRI_RegisteredUser RegisteredUser)
+   at GoGetIt.RegisteredUserController.UpdatePhone(String Phone)
+2016-10-23 20:55:55,080 [WIN-TLKRGH5LTV1][Thread:33][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.RegisteredUserController.Set(GRI_RegisteredUser RegisteredUser)
+   at GoGetIt.RegisteredUserController.UpdatePhone(String Phone)
+2016-10-23 21:37:04,884 [WIN-TLKRGH5LTV1][Thread:12][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.RegisteredUserController.Set(GRI_RegisteredUser RegisteredUser)
+   at GoGetIt.RegisteredUserController.UpdatePhone(String Phone)
+2016-10-23 21:41:31,843 [WIN-TLKRGH5LTV1][Thread:30][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.RegisteredUserController.Set(GRI_RegisteredUser RegisteredUser)
+   at GoGetIt.RegisteredUserController.UpdatePhone(String Phone)

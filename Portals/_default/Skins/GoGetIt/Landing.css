@@ -1,0 +1,212 @@
+
+body
+{
+    font-family: 'Montserrat', sans-serif;
+  background-color:#000;
+  color:#fff;    
+}
+.ContainerWrapper
+{
+  margin-top: 40px;
+}
+.navbar-toggle
+{
+display:none;
+}
+.navbar
+{
+display:none;
+    box-shadow: none;
+}
+
+.navbar-default
+{
+    background-color: inherit;
+    background-image: none;
+    border: none;
+}
+.logo
+{
+    height: 75px;
+}
+.num
+{
+  letter-spacing: 15px;
+    margin-left: 11px;
+    font-size: 24px;
+}
+.azulito
+{
+  position: absolute;
+    top: initial;
+    bottom: 1px;
+    left: 25px;
+    font-size: 35px;
+    color: rgb(182, 212, 213);
+}
+
+@media (max-width: 420px)
+{
+ .num
+{
+ display: none;
+}
+}
+h2, h3
+{
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+}
+.linea
+{
+  height: 1px;
+    width: 100%;
+}
+.form-group {
+    margin-bottom: 15px;
+    margin: 15px 15%;
+}
+.container
+{
+  text-align: center;
+}
+.rating-container .empty-stars {
+    color: #f8de98 !important;
+}
+textarea.form-control {
+    height: auto;
+    border-radius: 20px;
+    border: 1px solid #b6d4d5;
+    resize: none;
+
+}
+.btn-defaulto
+{
+  background-color: #000;
+    background-image: none;
+    color: #fff;
+    border-radius: 30px;
+    width: 150px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+span
+{
+  font-family: 'Montserrat', sans-serif;
+}
+.dvCommingSoonBackground,#Body
+{
+   width: 100%;
+   color: #000;
+   font-family: 'Montserrat', sans-serif;
+   border-top: 15px solid #000;
+    /*background: url('/images/BackGroundGrey.png') repeat center center fixed; */
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+background-color: #fff; margin: auto; 
+}
+.dvCommingSoon
+{
+margin: auto; width: 100%; float: left;
+}
+#txtEmail
+{
+float: left;max-width: 560px;margin:0px 0px 10px 0px;
+    width: 100%; height: 55px;
+   padding-left: 30px;
+border-radius: 25px 0 0 25px;
+ font-size: 16px;
+  font-style: italic;
+}
+.dvCommingSoonForm
+{
+margin: auto; text-align: center; max-width: 980px;
+width:100%;
+}
+.dvCommingSoonFormLogo
+{
+margin: 160px 0px 90px 0px;
+}
+.dvCommingSoonFormBox
+{
+margin-bottom:208px;
+ padding: 30px 40px 40px 40px; overflow: auto;
+}
+.dvCommingSoonFormEmail
+{
+margin: auto;max-width: 700px;
+}
+.btnNotifiyMe
+{
+   background-color: #fde700;
+    border: medium none;
+    border-radius: 0 25px 25px 0;
+    color: #000;
+    float: right;
+  max-width:135px;
+    font-size: 18px;
+    padding: 15px 20px;width:100%;
+}
+.dvRightArrowImage
+{
+float: right; padding-left: 10px; padding-top: 6px;
+}
+.dvHeadingFirst
+{
+font-size: 54px;font-weight: 300;
+}
+
+.dvHeadingSecond
+{
+
+font-size: 44px;
+font-weight: 100;
+ 
+}
+.dvHeadingThird
+{
+color:#E1E1E1;
+font-size: 22px; padding: 40px 0 20px; font-weight: 100;
+}
+@media all and (max-width: 780px)
+{
+.dvCommingSoonFormBox
+{
+margin-bottom:170px;
+}
+.dvCommingSoonForm
+{
+padding:0px 10px;
+}
+.dvHeadingFirst
+{
+font-size:24px;
+}
+
+.dvHeadingSecond
+{
+font-size: 20px; 
+}
+.dvHeadingThird
+{
+padding: 20px 0 10px;
+font-size: 16px;
+}
+#txtEmail {
+  max-width: 100%;
+    border-radius: 25px;
+  }
+  .btnNotifiyMe
+  {
+  
+  max-width:100%;
+   border-radius: 25px;
+  }
+.dvCommingSoonFormLogo
+{
+margin: 10px 0px 10px 0px;
+}
+}

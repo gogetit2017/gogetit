@@ -1,0 +1,4 @@
+2015-10-22 04:39:17,480 [GRI-HOST-07][Thread:7][ERROR] DotNetNuke.Entities.Urls.UrlRewriterUtils - System.ArgumentNullException: Value cannot be null.
+Parameter name: url
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at DotNetNuke.Entities.Urls.AdvancedUrlRewriter.ProcessRequest(HttpContext context, Uri requestUri, Boolean useFriendlyUrls, UrlAction result, FriendlyUrlSettings settings, Boolean allowSettingsChange, Guid parentTraceId)

@@ -1,0 +1,175 @@
+2016-09-12 12:42:16,455 [WIN-TLKRGH5LTV1][Thread:11][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.RegisteredUserController.Set(GRI_RegisteredUser RegisteredUser)
+   at GoGetIt.RegisteredUserController.UpdatePhone(String Phone)
+2016-09-12 13:01:28,336 [WIN-TLKRGH5LTV1][Thread:11][ERROR] DotNetNuke.Modules.Admin.Skins.EditSkins - System.UnauthorizedAccessException: Access to the path 'c:\inetpub\wwwroot\portals\_default\skins\gravity\thumbnail_2-col.jpg' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalDelete(String path, Boolean checkHost)
+   at DotNetNuke.Modules.Admin.Skins.EditSkins.CreateThumbnail(String strImage)
+2016-09-12 13:01:28,352 [WIN-TLKRGH5LTV1][Thread:11][ERROR] DotNetNuke.Modules.Admin.Skins.EditSkins - System.UnauthorizedAccessException: Access to the path 'c:\inetpub\wwwroot\portals\_default\skins\gravity\thumbnail_3-col-social.jpg' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalDelete(String path, Boolean checkHost)
+   at DotNetNuke.Modules.Admin.Skins.EditSkins.CreateThumbnail(String strImage)
+2016-09-12 13:01:28,352 [WIN-TLKRGH5LTV1][Thread:11][ERROR] DotNetNuke.Modules.Admin.Skins.EditSkins - System.UnauthorizedAccessException: Access to the path 'c:\inetpub\wwwroot\portals\_default\skins\gravity\thumbnail_3-col.jpg' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalDelete(String path, Boolean checkHost)
+   at DotNetNuke.Modules.Admin.Skins.EditSkins.CreateThumbnail(String strImage)
+2016-09-12 13:01:28,367 [WIN-TLKRGH5LTV1][Thread:11][ERROR] DotNetNuke.Modules.Admin.Skins.EditSkins - System.UnauthorizedAccessException: Access to the path 'c:\inetpub\wwwroot\portals\_default\skins\gravity\thumbnail_groups.jpg' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalDelete(String path, Boolean checkHost)
+   at DotNetNuke.Modules.Admin.Skins.EditSkins.CreateThumbnail(String strImage)
+2016-09-12 13:01:28,367 [WIN-TLKRGH5LTV1][Thread:11][ERROR] DotNetNuke.Modules.Admin.Skins.EditSkins - System.UnauthorizedAccessException: Access to the path 'c:\inetpub\wwwroot\portals\_default\skins\gravity\thumbnail_home.jpg' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalDelete(String path, Boolean checkHost)
+   at DotNetNuke.Modules.Admin.Skins.EditSkins.CreateThumbnail(String strImage)
+2016-09-12 13:01:28,383 [WIN-TLKRGH5LTV1][Thread:11][ERROR] DotNetNuke.Modules.Admin.Skins.EditSkins - System.UnauthorizedAccessException: Access to the path 'c:\inetpub\wwwroot\portals\_default\containers\gravity\thumbnail_notitle.jpg' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalDelete(String path, Boolean checkHost)
+   at DotNetNuke.Modules.Admin.Skins.EditSkins.CreateThumbnail(String strImage)
+2016-09-12 13:01:28,383 [WIN-TLKRGH5LTV1][Thread:11][ERROR] DotNetNuke.Modules.Admin.Skins.EditSkins - System.UnauthorizedAccessException: Access to the path 'c:\inetpub\wwwroot\portals\_default\containers\gravity\thumbnail_title_h2.jpg' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalDelete(String path, Boolean checkHost)
+   at DotNetNuke.Modules.Admin.Skins.EditSkins.CreateThumbnail(String strImage)
+2016-09-12 13:01:28,399 [WIN-TLKRGH5LTV1][Thread:11][ERROR] DotNetNuke.Modules.Admin.Skins.EditSkins - System.UnauthorizedAccessException: Access to the path 'c:\inetpub\wwwroot\portals\_default\containers\gravity\thumbnail_title_h3.jpg' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalDelete(String path, Boolean checkHost)
+   at DotNetNuke.Modules.Admin.Skins.EditSkins.CreateThumbnail(String strImage)
+2016-09-12 13:01:28,399 [WIN-TLKRGH5LTV1][Thread:11][ERROR] DotNetNuke.Modules.Admin.Skins.EditSkins - System.UnauthorizedAccessException: Access to the path 'c:\inetpub\wwwroot\portals\_default\containers\gravity\thumbnail_title_h4.jpg' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalDelete(String path, Boolean checkHost)
+   at DotNetNuke.Modules.Admin.Skins.EditSkins.CreateThumbnail(String strImage)
+2016-09-12 13:03:07,520 [WIN-TLKRGH5LTV1][Thread:17][ERROR] DotNetNuke.Modules.Admin.Skins.EditSkins - System.UnauthorizedAccessException: Access to the path 'c:\inetpub\wwwroot\portals\_default\skins\gravity\thumbnail_2-col.jpg' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalDelete(String path, Boolean checkHost)
+   at DotNetNuke.Modules.Admin.Skins.EditSkins.CreateThumbnail(String strImage)
+2016-09-12 13:03:07,520 [WIN-TLKRGH5LTV1][Thread:17][ERROR] DotNetNuke.Modules.Admin.Skins.EditSkins - System.UnauthorizedAccessException: Access to the path 'c:\inetpub\wwwroot\portals\_default\skins\gravity\thumbnail_3-col-social.jpg' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalDelete(String path, Boolean checkHost)
+   at DotNetNuke.Modules.Admin.Skins.EditSkins.CreateThumbnail(String strImage)
+2016-09-12 13:03:07,520 [WIN-TLKRGH5LTV1][Thread:17][ERROR] DotNetNuke.Modules.Admin.Skins.EditSkins - System.UnauthorizedAccessException: Access to the path 'c:\inetpub\wwwroot\portals\_default\skins\gravity\thumbnail_3-col.jpg' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalDelete(String path, Boolean checkHost)
+   at DotNetNuke.Modules.Admin.Skins.EditSkins.CreateThumbnail(String strImage)
+2016-09-12 13:03:07,536 [WIN-TLKRGH5LTV1][Thread:17][ERROR] DotNetNuke.Modules.Admin.Skins.EditSkins - System.UnauthorizedAccessException: Access to the path 'c:\inetpub\wwwroot\portals\_default\skins\gravity\thumbnail_groups.jpg' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalDelete(String path, Boolean checkHost)
+   at DotNetNuke.Modules.Admin.Skins.EditSkins.CreateThumbnail(String strImage)
+2016-09-12 13:03:07,536 [WIN-TLKRGH5LTV1][Thread:17][ERROR] DotNetNuke.Modules.Admin.Skins.EditSkins - System.UnauthorizedAccessException: Access to the path 'c:\inetpub\wwwroot\portals\_default\skins\gravity\thumbnail_home.jpg' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalDelete(String path, Boolean checkHost)
+   at DotNetNuke.Modules.Admin.Skins.EditSkins.CreateThumbnail(String strImage)
+2016-09-12 13:03:07,755 [WIN-TLKRGH5LTV1][Thread:17][ERROR] DotNetNuke.Modules.Admin.Skins.EditSkins - System.UnauthorizedAccessException: Access to the path 'c:\inetpub\wwwroot\portals\_default\containers\gravity\thumbnail_notitle.jpg' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalDelete(String path, Boolean checkHost)
+   at DotNetNuke.Modules.Admin.Skins.EditSkins.CreateThumbnail(String strImage)
+2016-09-12 13:03:07,755 [WIN-TLKRGH5LTV1][Thread:17][ERROR] DotNetNuke.Modules.Admin.Skins.EditSkins - System.UnauthorizedAccessException: Access to the path 'c:\inetpub\wwwroot\portals\_default\containers\gravity\thumbnail_title_h2.jpg' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalDelete(String path, Boolean checkHost)
+   at DotNetNuke.Modules.Admin.Skins.EditSkins.CreateThumbnail(String strImage)
+2016-09-12 13:03:07,755 [WIN-TLKRGH5LTV1][Thread:17][ERROR] DotNetNuke.Modules.Admin.Skins.EditSkins - System.UnauthorizedAccessException: Access to the path 'c:\inetpub\wwwroot\portals\_default\containers\gravity\thumbnail_title_h3.jpg' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalDelete(String path, Boolean checkHost)
+   at DotNetNuke.Modules.Admin.Skins.EditSkins.CreateThumbnail(String strImage)
+2016-09-12 13:03:07,770 [WIN-TLKRGH5LTV1][Thread:17][ERROR] DotNetNuke.Modules.Admin.Skins.EditSkins - System.UnauthorizedAccessException: Access to the path 'c:\inetpub\wwwroot\portals\_default\containers\gravity\thumbnail_title_h4.jpg' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalDelete(String path, Boolean checkHost)
+   at DotNetNuke.Modules.Admin.Skins.EditSkins.CreateThumbnail(String strImage)
+2016-09-12 13:17:20,928 [WIN-TLKRGH5LTV1][Thread:7][ERROR] DotNetNuke.Modules.Admin.Users.User - System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at DotNetNuke.Modules.Admin.Users.ManageUsers.UserUpdateCompleted(Object sender, EventArgs e)
+   at DotNetNuke.Entities.Modules.UserUserControlBase.OnUserUpdateCompleted(EventArgs e)
+   at DotNetNuke.Modules.Admin.Users.User.cmdUpdate_Click(Object sender, EventArgs e)
+2016-09-12 13:19:08,361 [WIN-TLKRGH5LTV1][Thread:17][ERROR] DotNetNuke.Modules.Admin.Users.User - System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at DotNetNuke.Modules.Admin.Users.ManageUsers.UserUpdateCompleted(Object sender, EventArgs e)
+   at DotNetNuke.Entities.Modules.UserUserControlBase.OnUserUpdateCompleted(EventArgs e)
+   at DotNetNuke.Modules.Admin.Users.User.cmdUpdate_Click(Object sender, EventArgs e)
+2016-09-12 13:23:57,242 [WIN-TLKRGH5LTV1][Thread:7][ERROR] DotNetNuke.Modules.Admin.Users.User - System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at DotNetNuke.Modules.Admin.Users.ManageUsers.UserUpdateCompleted(Object sender, EventArgs e)
+   at DotNetNuke.Entities.Modules.UserUserControlBase.OnUserUpdateCompleted(EventArgs e)
+   at DotNetNuke.Modules.Admin.Users.User.cmdUpdate_Click(Object sender, EventArgs e)
+2016-09-12 13:24:01,601 [WIN-TLKRGH5LTV1][Thread:6][ERROR] DotNetNuke.Modules.Admin.Users.User - System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at DotNetNuke.Modules.Admin.Users.ManageUsers.UserUpdateCompleted(Object sender, EventArgs e)
+   at DotNetNuke.Entities.Modules.UserUserControlBase.OnUserUpdateCompleted(EventArgs e)
+   at DotNetNuke.Modules.Admin.Users.User.cmdUpdate_Click(Object sender, EventArgs e)
+2016-09-12 13:24:06,257 [WIN-TLKRGH5LTV1][Thread:6][ERROR] DotNetNuke.Modules.Admin.Users.User - System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at DotNetNuke.Modules.Admin.Users.ManageUsers.UserUpdateCompleted(Object sender, EventArgs e)
+   at DotNetNuke.Entities.Modules.UserUserControlBase.OnUserUpdateCompleted(EventArgs e)
+   at DotNetNuke.Modules.Admin.Users.User.cmdUpdate_Click(Object sender, EventArgs e)
+2016-09-12 16:24:54,986 [WIN-TLKRGH5LTV1][Thread:14][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint "FK_GRI_RegisteredUser_Users". The conflict occurred in database "GoGetIt", table "dbo.GRI_RegisteredUser", column 'UserID'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at PetaPoco.Database.Execute(String sql, Object[] args)
+   at DotNetNuke.Data.SqlDataProvider.ExecuteNonQuery(String procedureName, Object[] commandParameters)
+   at DotNetNuke.Security.Membership.AspNetMembershipProvider.RemoveUser(UserInfo user)
+ClientConnectionId:a0fac731-8df9-4076-9f09-d560cc71db22
+Error Number:547,State:0,Class:16
+2016-09-12 16:24:59,735 [WIN-TLKRGH5LTV1][Thread:14][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint "FK_GRI_RegisteredUser_Users". The conflict occurred in database "GoGetIt", table "dbo.GRI_RegisteredUser", column 'UserID'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at PetaPoco.Database.Execute(String sql, Object[] args)
+   at DotNetNuke.Data.SqlDataProvider.ExecuteNonQuery(String procedureName, Object[] commandParameters)
+   at DotNetNuke.Security.Membership.AspNetMembershipProvider.RemoveUser(UserInfo user)
+ClientConnectionId:68d74f5d-0d91-4c98-a015-ce88e409f21c
+Error Number:547,State:0,Class:16
+2016-09-12 16:25:03,626 [WIN-TLKRGH5LTV1][Thread:14][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint "FK_GRI_RegisteredUser_Users". The conflict occurred in database "GoGetIt", table "dbo.GRI_RegisteredUser", column 'UserID'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at PetaPoco.Database.Execute(String sql, Object[] args)
+   at DotNetNuke.Data.SqlDataProvider.ExecuteNonQuery(String procedureName, Object[] commandParameters)
+   at DotNetNuke.Security.Membership.AspNetMembershipProvider.RemoveUser(UserInfo user)
+ClientConnectionId:68d74f5d-0d91-4c98-a015-ce88e409f21c
+Error Number:547,State:0,Class:16
+2016-09-12 17:19:56,917 [WIN-TLKRGH5LTV1][Thread:21][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint "FK_GRI_RegisteredUser_Users". The conflict occurred in database "GoGetIt", table "dbo.GRI_RegisteredUser", column 'UserID'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at PetaPoco.Database.Execute(String sql, Object[] args)
+   at DotNetNuke.Data.SqlDataProvider.ExecuteNonQuery(String procedureName, Object[] commandParameters)
+   at DotNetNuke.Security.Membership.AspNetMembershipProvider.RemoveUser(UserInfo user)
+ClientConnectionId:cac4660c-5ab3-4883-9962-a0b18d38a8d3
+Error Number:547,State:0,Class:16

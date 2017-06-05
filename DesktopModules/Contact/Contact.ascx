@@ -1,0 +1,327 @@
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Contact.ascx.cs" Inherits="GoGetIt.Contact" %>
+
+
+
+<script src="/js/jquery.validator.min.js" type="text/javascript"></script>
+<link href="/js/AlertModal.css" rel="stylesheet" type="text/css" />
+ 
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#txtName").val("");
+        $("#txtEmailContact").val("");
+        $("#txtPhoneContact").val("");
+        $("#txtSubject").val("");
+        $("#txtMessage").val("");
+        $("#dvContactAlertDiv").html('');
+    });
+</script>
+
+<%--Insert Contact--%>
+<script type="text/javascript">
+    function InsertContact() {
+        var validate = new Validator({ validation_group: 'InsertContactUs', error_class: 'error' });
+        validate.validate({
+            txtName: 'Full Name is required.',
+            txtEmailContact: 'Email is required.',
+            txtPhoneContact: 'Phone no. is required.',
+            txtSubject: 'Subject is required.',
+        });
+        if (validate.error == undefined) {
+            $("#dvContactAlertDiv").html('');
+        }
+        else {
+            $("#dvContactAlertDiv").html('<div class="alert alert-error">' + validate.error + '</div>');
+            return false;
+        }
+        var vName = $("#txtName").val();
+        var vEmail = $("#txtEmailContact").val();
+        var vPhone = $("#txtPhoneContact").val();
+        var vSubject = $("#txtSubject").val();
+        var vMessage = $("#txtMessage").val();
+
+        var mcontact = { FullName: vName, Email: vEmail, Phone: vPhone, Subject: vSubject, Message: vMessage };
+        var objectAsJson = JSON.stringify(mcontact);
+
+        $.ajax({
+            type: "POST",
+            url: "/DesktopModules/GoGetIt/API/Contact/Save",
+            cache: false,
+            data: objectAsJson,
+            contentType: "application/json",
+            success: onSuccessInsertContact,
+            error: onErrorInsertContact
+        });
+    }
+    function onSuccessInsertContact(result) {
+        var o = eval(result);
+        if (o.success == true) {
+            $("#dvContactAlertDiv").html('<div class="alert alert-success">Thank you for contacting us.</div>');
+            $('#modalContactThankyou').modal('show');
+            /*window.location.href="/ThankYouContact";*/
+        }
+        else {
+            $("#dvContactAlertDiv").html('<div class="alert alert-error">There was an error submitting the form.</div>');
+        }
+    }
+    function onErrorInsertContact(result) {
+        if (result.status == 200) {
+            onSuccessInsertContact(result);
+        }
+    }
+
+</script>
+
+<!--Phone No. Format-->
+<script type="text/javascript">
+    function FormatPhone(e, input) {
+        /* to prevent backspace, enter and other keys from  
+         interfering w mask code apply by attribute  
+         onkeydown=FormatPhone(control) 
+        */
+        evt = e || window.event; /* firefox uses reserved object e for event */
+        var pressedkey = evt.which || evt.keyCode;
+        var BlockedKeyCodes = new Array(8, 27, 13, 9); //8 is backspace key 
+        var len = BlockedKeyCodes.length;
+        var block = false;
+        var str = '';
+        for (i = 0; i < len; i++) {
+            str = BlockedKeyCodes[i].toString();
+            if (str.indexOf(pressedkey) >= 0) block = true;
+        }
+        if (block) return true;
+
+        s = input.value;
+        if (s.charAt(0) == '+') return false;
+        filteredValues = '"`!@#$%^&*()_+|~-=\QWERT YUIOP{}ASDFGHJKL:ZXCVBNM<>?qwertyuiop[]asdfghjkl;zxcvbnm,./\\\'';
+        var i;
+        var returnString = '';
+        /* Search through string and append to unfiltered values  
+           to returnString. */
+        for (i = 0; i < s.length; i++) {
+            var c = s.charAt(i);
+            if ((filteredValues.indexOf(c) == -1) & (returnString.length < 11)) {
+                if (returnString.length == 3) returnString += '-';
+                if (returnString.length == 7) returnString += '-';
+                returnString += c;
+            }
+        }
+        input.value = returnString;
+
+        return false;
+    }
+</script>
+
+<div style="background:#F0F0F0;width:100%;">
+    <div class="container">
+        <div class="dvContactGreyBG">
+            <div class="dvContactTitleText"> If you are a customer with an inquiry, or a business owner interested in partnering with us, submit a request today. </div>
+            <div class="dvContactFormBG">
+                <div class="dvPersonalInfo"> PERSONAL INFORMATION </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" class="form-control InsertContactUs" id="txtName" placeholder="Your Name" /> </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="email" class="form-control InsertContactUs validate-email" id="txtEmailContact" placeholder="Email" /> </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" class="form-control InsertContactUs validate-phone" id="txtPhoneContact" placeholder="Phone" onkeypress="FormatPhone(event,txtPhoneContact);" /> </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" class="form-control InsertContactUs" id="txtSubject" placeholder="Subject" /> </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Message" id="txtMessage"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group text-right">
+                            <a style="cursor:pointer; text-decoration: none; font-weight: bold; color: #000" onclick="InsertContact();">GO SEND IT &rarr; </a>
+
+                            <img class="hidden" src="/images/GoSentItImg.png" class="ContactGoBtn" onclick="InsertContact();" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <div id="dvContactAlertDiv"> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <div class="row contact-text">
+                <div class="col-md-8">
+                    <div class="dvContactPreferText">
+                    CALL US NOW <span class="tel-text-contact">(866) 948-9506</span>
+                    <hr class="hr-linea-contact">
+                    </div>
+
+
+                </div>
+                <div class="col-md-4">
+                        <div class="dvContactInfoText">We can also be reached at 
+                            <a style="font-weight:bold" href="mailto:customersupport@letusgogetit.com">customersupport@letusgogetit.com</a>.
+                            We are available to assist you from <span style="font-weight:bold">10:00 AM - 7:00 PM</span>, Monday thru Saturday.
+                        </div>
+
+                 </div>
+            </div>
+            <!--<div class="dvContactPreferText"> Prefer to call us? </div>
+            <div class="dvContactInfoText">For immediate assistance call <a class="phoneBlue" href="tel:(561)910-0672">(561) 910-0672</a>.
+			For assistance during the weekend or any day after 8:00 PM call <a class="phoneBlue" href="tel:5618089840">(561) 808-9840</a>.
+                We can also be reached at <a  href="mailto:customersupport@gogetit.com">customersupport@gogetit.com</a>, or to the company's Fax Number <a class="phoneBlue" href="tel:(561)939-1751" >(561) 939-1751</a>.
+                We are available to assist you from 10:00 AM - 1:00 AM the seven days of the week.
+                <br />-->			
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="modalContactThankyou" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+
+            <div class="modal-body">
+
+                <h1>THANK YOU!</h1>
+                <div class="dvThankyouText">We have received your message.</div>
+                <div class="dvThankyouText">You will receive communication from one<br />of our representatives shortly.</div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<style>
+.contact-text{
+        max-width: 790px;
+        margin: auto;
+            }
+
+
+@media  (max-width: 330px) {
+.tel-text-contact{
+    
+   margin-left: -80px;
+   line-height: 2;
+    }
+
+
+    .texto-contacto-number{
+
+    font-size: 30px;
+    margin-left: -45px;
+
+
+        }
+    }
+
+
+    .tel-text-contact{
+    font-size: 30px; 
+    font-weight: 300; 
+    padding-left: 80px;
+
+    }
+
+    
+    .hr-linea-contact{
+
+    background-color: #FDE700;
+    height: 3px;
+
+    }
+
+    .text-contacto{
+
+    text-align: left;
+    font-size: 15px;
+    font-weight: 300;
+    }
+
+    .texto-contacto-number{
+
+    font-size: 30px;
+    padding-left: 50px;
+    /*padding: 30px 0px 100px 135px;*/
+    /* padding: 20px 0px 15px 0px; */
+    }
+
+
+
+
+
+
+    #modalContactThankyou .modal-dialog {
+        width: 700px;
+        max-width: 100%;
+    }
+
+    #modalContactThankyou .modal-body {
+        border-top: 5px solid #FDE700;
+    }
+
+    #modalContactThankyou .modal-content {
+        border-radius: 0px;
+    }
+
+    #modalContactThankyou h1 {
+        font-size: 56px;
+        font-weight: 300;
+        color: #252525;
+        font-family: roboto;
+        text-align: center;
+    }
+
+    #modalContactThankyou .dvThankyouText {
+        color: #7e7e7e;
+        font-family: roboto;
+        font-size: 20px;
+        text-align: center;
+        margin: 15px 0;
+    }
+ @media all and (max-width: 720px) {
+        #modalContactThankyou .modal-dialog {
+            width: 500px;
+            max-width: 100%;
+        }
+    }
+    @media all and (max-width: 520px) {
+        #modalContactThankyou .modal-dialog {
+            width: 400px;
+            max-width: 100%;
+        }
+    }
+
+    @media all and (max-width: 410px) {
+        #modalContactThankyou .modal-dialog {
+            width: 330px;
+            max-width: 100%;
+        }
+    }
+	 @media all and (max-width: 340px) {
+        #modalContactThankyou .modal-dialog {
+            width: 300px;
+            max-width: 100%;
+        }
+    }
+</style>
+
+
+
+

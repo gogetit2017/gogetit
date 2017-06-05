@@ -1,0 +1,68 @@
+2015-09-22 00:43:08,805 [GRI-HOST-07][Thread:16][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.Get(Int32 OrderID)
+2015-09-22 00:43:21,231 [GRI-HOST-07][Thread:20][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.Get(Int32 OrderID)
+2015-09-22 00:43:59,575 [GRI-HOST-07][Thread:20][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Configuration.ConfigurationErrorsException: Password Retrieval is not enabled
+   at DotNetNuke.Entities.Users.UserController.GetPassword(UserInfo& user, String passwordAnswer)
+   at GoGetIt.ResetPasswordController.UpdatePassword(Int32 UserID, String NewPassword, String OldPassword)
+2015-09-22 00:48:15,118 [GRI-HOST-07][Thread:9][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Configuration.ConfigurationErrorsException: Password Retrieval is not enabled
+   at DotNetNuke.Entities.Users.UserController.GetPassword(UserInfo& user, String passwordAnswer)
+   at GoGetIt.ResetPasswordController.UpdatePassword(Int32 UserID, String NewPassword, String OldPassword)
+2015-09-22 00:57:26,163 [GRI-HOST-07][Thread:14][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.Get(Int32 OrderID)
+2015-09-22 00:58:58,837 [GRI-HOST-07][Thread:9][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Configuration.ConfigurationErrorsException: Password Retrieval is not enabled
+   at DotNetNuke.Entities.Users.UserController.GetPassword(UserInfo& user, String passwordAnswer)
+   at GoGetIt.ResetPasswordController.UpdatePassword(Int32 UserID, String NewPassword, String OldPassword)
+2015-09-22 01:00:26,529 [GRI-HOST-07][Thread:14][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Configuration.ConfigurationErrorsException: Password Retrieval is not enabled
+   at DotNetNuke.Entities.Users.UserController.GetPassword(UserInfo& user, String passwordAnswer)
+   at GoGetIt.ResetPasswordController.UpdatePassword(Int32 UserID, String NewPassword, String OldPassword)
+2015-09-22 01:01:03,224 [GRI-HOST-07][Thread:14][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.Get(Int32 OrderID)
+2015-09-22 01:37:53,544 [GRI-HOST-07][Thread:13][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Configuration.Provider.ProviderException: Hashed passwords cannot be decoded.
+   at System.Web.Security.SqlMembershipProvider.GetPassword(String username, String passwordAnswer)
+   at DotNetNuke.Entities.Users.UserController.GetPassword(UserInfo& user, String passwordAnswer)
+   at GoGetIt.ResetPasswordController.UpdatePassword(Int32 UserID, String NewPassword, String OldPassword)
+2015-09-22 01:38:05,908 [GRI-HOST-07][Thread:19][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Configuration.Provider.ProviderException: Hashed passwords cannot be decoded.
+   at System.Web.Security.SqlMembershipProvider.GetPassword(String username, String passwordAnswer)
+   at DotNetNuke.Entities.Users.UserController.GetPassword(UserInfo& user, String passwordAnswer)
+   at GoGetIt.ResetPasswordController.UpdatePassword(Int32 UserID, String NewPassword, String OldPassword)
+2015-09-22 01:50:56,058 [GRI-HOST-07][Thread:17][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Configuration.Provider.ProviderException: Hashed passwords cannot be decoded.
+   at System.Web.Security.SqlMembershipProvider.GetPassword(String username, String passwordAnswer)
+   at DotNetNuke.Entities.Users.UserController.GetPassword(UserInfo& user, String passwordAnswer)
+   at GoGetIt.ResetPasswordController.UpdatePassword(Int32 UserID, String NewPassword, String OldPassword)
+2015-09-22 02:28:04,978 [GRI-HOST-07][Thread:9][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Configuration.Provider.ProviderException: Hashed passwords cannot be decoded.
+   at System.Web.Security.SqlMembershipProvider.GetPassword(String username, String passwordAnswer)
+   at DotNetNuke.Entities.Users.UserController.GetPassword(UserInfo& user, String passwordAnswer)
+   at GoGetIt.ResetPasswordController.UpdatePassword(Int32 UserID, String NewPassword, String OldPassword)
+2015-09-22 02:28:14,961 [GRI-HOST-07][Thread:24][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Configuration.Provider.ProviderException: Hashed passwords cannot be decoded.
+   at System.Web.Security.SqlMembershipProvider.GetPassword(String username, String passwordAnswer)
+   at DotNetNuke.Entities.Users.UserController.GetPassword(UserInfo& user, String passwordAnswer)
+   at GoGetIt.ResetPasswordController.UpdatePassword(Int32 UserID, String NewPassword, String OldPassword)
+2015-09-22 02:33:08,434 [GRI-HOST-07][Thread:28][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.Get(Int32 OrderID)
+2015-09-22 02:43:35,750 [GRI-HOST-07][Thread:28][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Configuration.Provider.ProviderException: Hashed passwords cannot be decoded.
+   at System.Web.Security.SqlMembershipProvider.GetPassword(String username, String passwordAnswer)
+   at DotNetNuke.Entities.Users.UserController.GetPassword(UserInfo& user, String passwordAnswer)
+   at GoGetIt.ResetPasswordController.UpdatePassword(Int32 UserID, String NewPassword, String OldPassword)
+2015-09-22 03:33:14,012 [GRI-HOST-07][Thread:9][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.IO.FileNotFoundException: Could not find file 'c:\Inetpub\GoGetIt\EmailTemplate\ChangePassword.htm'.
+File name: 'c:\Inetpub\GoGetIt\EmailTemplate\ChangePassword.htm'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at GoGetIt.SendEmail.EmailNotification.SendEmail(EmailTemplate EmailToSend, List`1 lstDictionary, String EmailTo, String EmailFrom, String AttachmentFilename)
+2015-09-22 03:33:37,170 [GRI-HOST-07][Thread:30][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.Get(Int32 OrderID)
+2015-09-22 03:35:58,383 [GRI-HOST-07][Thread:30][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.Get(Int32 OrderID)
+2015-09-22 03:36:12,653 [GRI-HOST-07][Thread:7][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.Get(Int32 OrderID)
+2015-09-22 03:36:12,724 [GRI-HOST-07][Thread:30][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.Get(Int32 OrderID)
+2015-09-22 03:36:18,412 [GRI-HOST-07][Thread:28][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.OrderController.Get(Int32 OrderID)
+2015-09-22 08:44:07,136 [GRI-HOST-07][Thread:34][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Configuration.Provider.ProviderException: Hashed passwords cannot be decoded.
+   at System.Web.Security.SqlMembershipProvider.GetPassword(String username, String passwordAnswer)
+   at DotNetNuke.Entities.Users.UserController.GetPassword(UserInfo& user, String passwordAnswer)
+   at GoGetIt.ResetPasswordController.UpdatePassword(Int32 UserID, String NewPassword, String OldPassword)

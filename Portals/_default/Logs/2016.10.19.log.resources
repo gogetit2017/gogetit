@@ -1,0 +1,21 @@
+2016-10-19 01:00:00,408 [WIN-TLKRGH5LTV1][Thread:14][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.RegisteredUserController.Set(GRI_RegisteredUser RegisteredUser)
+   at GoGetIt.RegisteredUserController.UpdatePhone(String Phone)
+2016-10-19 01:00:02,689 [WIN-TLKRGH5LTV1][Thread:8][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.RegisteredUserController.Set(GRI_RegisteredUser RegisteredUser)
+   at GoGetIt.RegisteredUserController.UpdatePhone(String Phone)
+2016-10-19 01:00:03,408 [WIN-TLKRGH5LTV1][Thread:8][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.RegisteredUserController.Set(GRI_RegisteredUser RegisteredUser)
+   at GoGetIt.RegisteredUserController.UpdatePhone(String Phone)
+2016-10-19 01:00:04,533 [WIN-TLKRGH5LTV1][Thread:8][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.RegisteredUserController.Set(GRI_RegisteredUser RegisteredUser)
+   at GoGetIt.RegisteredUserController.UpdatePhone(String Phone)
+2016-10-19 01:00:04,845 [WIN-TLKRGH5LTV1][Thread:17][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at GoGetIt.RegisteredUserController.Set(GRI_RegisteredUser RegisteredUser)
+   at GoGetIt.RegisteredUserController.UpdatePhone(String Phone)
+2016-10-19 01:00:50,406 [WIN-TLKRGH5LTV1][Thread:10][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2016-10-19 11:41:01,198 [WIN-TLKRGH5LTV1][Thread:18][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2016-10-19 19:53:14,411 [WIN-TLKRGH5LTV1][Thread:26][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()

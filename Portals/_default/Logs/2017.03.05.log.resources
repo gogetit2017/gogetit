@@ -1,0 +1,37 @@
+2017-03-05 07:11:42,105 [WIN-TLKRGH5LTV1][Thread:7][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2017-03-05 09:27:27,022 [WIN-TLKRGH5LTV1][Thread:7][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at DotNetNuke.Data.PetaPoco.PetaPocoExt.ExecuteReader(Database database, String sql, Object[] args)
+   at DotNetNuke.Data.SqlDataProvider.ExecuteReader(String procedureName, Object[] commandParameters)
+   at DotNetNuke.Entities.Modules.Definitions.ModuleDefinitionController.GetModuleDefinitionsCallBack(CacheItemArgs cacheItemArgs)
+   at DotNetNuke.Common.Utilities.DataCache.GetCachedDataFromRuntimeCache(CacheItemArgs cacheItemArgs, CacheItemExpiredCallback cacheItemExpired)
+ClientConnectionId:3673497f-fb73-4c37-a17c-0e3f67e350d7
+Error Number:-2,State:0,Class:11
+2017-03-05 09:27:27,319 [WIN-TLKRGH5LTV1][Thread:7][ERROR] DotNetNuke.Entities.Urls.UrlRewriterUtils - System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Enumerable.Where[TSource](IEnumerable`1 source, Func`2 predicate)
+   at DotNetNuke.Entities.Modules.Definitions.ModuleDefinitionController.GetModuleDefinitionByID(Int32 moduleDefID)
+   at DotNetNuke.Entities.Modules.ModuleInfo.get_ModuleDefinition()
+   at DotNetNuke.Common.Globals.ValidateModuleInTab(Int32 tabId, String moduleName)
+   at DotNetNuke.Entities.Urls.TabIndexController.AddStandardPagesToDict(SharedDictionary`2 tabIndex, Dictionary`2 dupCheck, String httpAlias, Int32 portalId, String cultureCode)
+   at DotNetNuke.Entities.Urls.TabIndexController.BuildTabDictionary(PathSizes& pathSizes, FriendlyUrlSettings settings, Int32 buildPortalId, SharedDictionary`2 tabIndex, Hashtable& homePageSkins, SharedDictionary`2& portalTabPathDictionary, Guid parentTraceId)
+   at DotNetNuke.Entities.Urls.TabIndexController.FetchTabDictionary(Int32 portalId, Int32& minTabPathDepth, Int32& maxTabPathDepth, Int32& minAliasPathDepth, Int32& maxAliasPathDepth, FriendlyUrlSettings settings, Boolean forceRebuild, Boolean bypassCache, Guid parentTraceId)
+   at DotNetNuke.Entities.Urls.RewriteController.GetTabFromDictionary(String url, NameValueCollection querystringCol, FriendlyUrlSettings settings, UrlAction result, Guid parentTraceId)
+   at DotNetNuke.Entities.Urls.RewriteController.IdentifyByTabPathEx(String absoluteUri, String queryString, UrlAction result, NameValueCollection queryStringCol, FriendlyUrlSettings settings, Guid parentTraceId)
+   at DotNetNuke.Entities.Urls.AdvancedUrlRewriter.CheckForRewrite(String fullUrl, String querystring, UrlAction result, Boolean useFriendlyUrls, NameValueCollection queryStringCol, FriendlyUrlSettings settings, Boolean& isPhysicalResource, Guid parentTraceId)
+   at DotNetNuke.Entities.Urls.AdvancedUrlRewriter.ProcessRequest(HttpContext context, Uri requestUri, Boolean useFriendlyUrls, UrlAction result, FriendlyUrlSettings settings, Boolean allowSettingsChange, Guid parentTraceId)
+2017-03-05 11:17:29,102 [WIN-TLKRGH5LTV1][Thread:8][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException (0x80004005): A potentially dangerous Request.Path value was detected from the client (:).
+   at System.Web.HttpRequest.ValidateInputIfRequiredByConfig()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+2017-03-05 12:16:16,072 [WIN-TLKRGH5LTV1][Thread:15][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()

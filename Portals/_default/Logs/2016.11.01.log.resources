@@ -1,0 +1,12 @@
+2016-11-01 12:34:57,003 [WIN-TLKRGH5LTV1][Thread:18][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2016-11-01 12:34:58,675 [WIN-TLKRGH5LTV1][Thread:18][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2016-11-01 13:08:59,713 [WIN-TLKRGH5LTV1][Thread:17][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Exception: Invalid Password
+   at DotNetNuke.Entities.Users.UserController.ChangePassword(UserInfo user, String oldPassword, String newPassword)
+   at GoGetIt.ResetPasswordController.Save(String Guid, String NewPassword, String Email)
+2016-11-01 18:47:43,062 [WIN-TLKRGH5LTV1][Thread:18][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.ArgumentNullException: Value cannot be null.
+Parameter name: input
+   at System.Text.RegularExpressions.Regex.Replace(String input, String replacement)
+   at System.Text.RegularExpressions.Regex.Replace(String input, String pattern, String replacement)
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)

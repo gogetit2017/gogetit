@@ -1,0 +1,3938 @@
+body {
+    padding-top: 0 !important;
+}
+#idfaresti
+{   
+    font-size: 20px;
+    font-weight: 300;
+    color: #444;
+}
+.home .fullscreen-bg {
+    background: url(/images/newh_background.png);
+    background-repeat: no-repeat;
+    /*background-position: bottom center;*/
+    background-size: cover;
+}
+
+.home .New_Home_Services_Img_Block .dvHomeTitle,
+.home .New_Home_Services_Img_Block .dvHomeDescription {
+    text-align: center;
+}
+
+.home .New_Home_Services_Img_Block .dvHomeTitle
+{
+    color: #f9e700;
+    font-weight: bold;
+    margin-top: 40px;
+    font-size: 24px;
+    min-height: 70px;
+    margin-bottom: 20px;
+}
+
+.home .New_Home_Services_Img_Block .dvHomeDescription {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.navbar-default {
+    padding-top: 20px !important;
+}
+.navbar-default.affix {
+    width: 100%;
+    background: #000;
+    z-index: 99;
+    padding-bottom: 0px;
+}
+
+#dnn_CarouselPane {
+    position: initial;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+}
+
+select {
+    outline: none !important;
+}
+
+a {
+    outline: none !important;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /*background: #282526;*/
+    background: #000;
+
+}
+
+.texto-home-titulo {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    padding-bottom: 15px;
+    text-shadow: 2px 3px 6px #4a4949;
+}
+
+.DisplayNone{
+display:none !important;
+}
+
+.blur {
+    background-color: #fff;
+    left: 0;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 200vh;
+    z-index: 99990;
+}
+
+.progress {
+    background-color: White;
+    height: 50px !important;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    z-index: 99999;
+}
+
+.dvRow {
+    width: 100%;
+    clear: both;
+    margin: auto;
+}
+
+.dvContactGreyBG {
+    background: #F0F0F0;
+    padding: 5% 2%;
+}
+
+#dvFoodDelivery select {
+    -moz-appearance: none;
+    color: #fff;
+    -webkit-appearance: none;
+    background: #292627 url("/images/OrderPageDropdown.png") no-repeat scroll right center;
+    opacity: 0.75;
+}
+
+.dvContactTitleText {
+    font-size: 36px;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 5%;
+    color: #252525;
+}
+
+.dvContactFormBG {
+    background: #fff;
+    padding: 20px 31px;
+    width: 100%;
+    max-width: 790px;
+    margin: auto;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+    .dvContactFormBG .form-control {
+        border-radius: 0px;
+        font-size: 16px;
+    }
+
+    .dvContactFormBG textarea {
+        height: 120px;
+    }
+
+.dvPersonalInfo {
+    color: #999;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.ContactGoBtn {
+    font-size: 16px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #5B8FBE;
+    width: 95px;
+    float: right;
+    cursor: pointer;
+}
+
+.dvContactPreferText {
+
+    font-size: 22px;
+    text-align: left;
+    /*font-size: 36px;
+    text-align: center;*/
+    color: #252525;
+    padding: 0px 0px 3px 0px;
+    /*padding: 20px 0px 15px 0px;*/
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    font-weight: 100;
+    float: left;
+    padding-top: 40px;
+    /*font-weight: 300;*/
+    line-height: 21px;
+}
+
+.dvContactInfoText {
+    color: #252525;
+    /*font-size: 16px;*/
+    font-weight: 300;
+    margin: auto;
+    max-width: 765px;
+    text-align: justify;
+    width: 100%;
+    
+    padding-top: 26px;
+}
+
+/*.dvContactPreferText {
+    font-size: 36px;
+    text-align: center;
+    color: #252525;
+    padding: 20px 0px 15px 0px;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    font-weight: 100;
+}
+
+.dvContactInfoText {
+    color: #252525;
+    font-size: 16px;
+    font-weight: 300;
+    margin: auto;
+    max-width: 765px;
+    text-align: center;
+    width: 100%;
+}*/
+
+    .dvContactInfoText a {
+        color: #252525;
+    }
+
+        .dvContactInfoText a:hover {
+            color: #252525;
+            text-decoration: none;
+        }
+
+
+.dvFooterLinks {
+    font-size: 12px;
+    color: #c2c2c2;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+    float: left;
+}
+.dvFooterIcon {
+    display: inline-block;
+    float: none;
+    max-width: 30px;
+    width: 33%;
+}
+
+.myAccountOuter {
+    width: 100%;
+    min-height: 820px;
+    display: inline-block;
+    clear: both;
+    background: #F0F0F0;
+}
+
+#MyAccount {
+    background: #fff;
+    min-height: 696px;
+    width: 100%;
+    max-width: 925px;
+    margin: 60px auto 70px auto;    
+    overflow:hidden;
+}
+
+#TabLeft {
+    width: 35%;
+    max-width: 284px;
+    padding: 0px 20px;
+    float: left;
+}
+
+#TabMid {
+    border-left: 2px solid #EBEBEB;
+    min-height: 696px;
+    width: 1%;
+    max-width: 3px;
+    float: left;
+}
+
+#TabRight {
+    margin-top: 50px;
+    padding-left: 50px;
+    width: 64%;
+    max-width: 630px;
+    float: left;
+}
+
+#TabLeft ul {
+    margin-left: 0px;
+}
+
+#TabLeft h2 {
+    color: #252525;
+    font-weight: 300;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#TabRight h3 {
+    margin-bottom: 30px;
+    color: #252525;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+#TabRight .form-control {
+    max-width: 300px;
+    width:85%;
+    border-radius: 0px;
+}
+
+#TabRight label {
+    color: #777;
+}
+
+#TabRight select {
+    width: 100px;
+}
+
+#MyAccount .nav > li > a {
+    color: #282526;
+    outline: medium none;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#MyAccount .nav-pills > li > a {
+    border-radius: 0px;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover {
+    background-color: #020202;
+}
+
+.Month {
+    width: 110px;
+    float: left;
+}
+
+.Slah {
+    width: 15px;
+    float: left;
+    margin-top: 8px;
+}
+
+.Year {
+    width: 110px;
+    float: left;
+}
+
+.DateTotal {
+    width: 100%;
+    clear: both;
+    display: inline-block;
+}
+
+.YellowBtn {
+    background: #020202;
+    border-radius: 0px;
+    border: none;
+    color: #fff;
+    text-align: left;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+    .YellowBtn:hover {
+        background: #020202;
+         color: #fff;
+    }
+
+.GreyBtn {
+    background: #ccc;
+    border-radius: 0px;
+    border: none;
+    color: #fff;
+    text-align: left;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+    .GreyBtn:hover {
+        background: #ccc;
+        color: #fff;
+    }
+/*
+#FooterRow {
+    background: #282526;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 25px;
+}
+*/
+#Content, #TopContent {
+    margin-top: 0px !important; 
+}
+#FooterRow {
+        background: #000;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: -20px;
+    /* margin-bottom: 25px; */
+    margin-top: -10px;
+}
+.dvBannerBecomeText {
+    font-size: 50px;
+    color: #fff;
+    margin: auto auto 10px auto;
+    text-align: center;
+    font-weight: 300;
+}
+/*23/08/16 clase no padding*/
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+/*23/08/16 fin clase no padding*/
+.dvBannerOuter {
+    /*margin: 22% auto auto auto;*/
+    margin: 10% auto 12% auto;
+}
+
+#dvBecomeAGetterTotal {
+    display: inline-block;
+    /*margin: auto auto 2% auto;*/
+    /*background-image: url('/images/OrderPageBgTop.png');*/
+    margin-bottom: -10px;
+}
+
+.dvBannerApplyNow {
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: auto auto 5% auto;
+    font-weight: bold;
+}
+
+    .dvBannerApplyNow a {
+        color: #3dc9fe;
+    }
+
+.txtCenter {
+    text-align: center;
+}
+
+.dvBnnerSubText {
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    margin: auto auto 20px auto;
+}
+
+.dvBannerOnImg {
+    margin: 20px 0px;
+}
+
+/*.GetsLastCol {
+    margin-top: 10px;
+}*/
+
+.dvBannerSmallText {
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    margin: auto;
+}
+
+.dvBannerLine {
+    float: left;
+}
+
+.col1 {
+    width: 33%;
+}
+
+#GetBannerRow {
+    margin:auto auto 5% auto;
+    clear: both;
+    overflow: auto;
+    width:100%;
+    max-width:938px;
+}
+
+.dvBannerGetsText {
+    font-size: 50px;
+    color: #fff;
+    margin: auto auto 5% auto;
+    text-align: center;
+    font-weight: 300;
+    line-height: 60px;
+}
+
+.dvGetsBannerOuter {
+    margin: 22% auto auto auto;
+    width: 100%;
+    max-width: 700px;
+}
+
+.dvGetsTopOuter {
+    padding: 3% 0%;
+    width: 100%;
+    max-width: 670px;
+    margin: auto;
+    text-align: center;
+}
+
+.dvStilltext {
+    font-size: 36px;
+    color: #3D3D3D;
+    font-weight: 300;
+}
+
+.dvChecktext {
+    font-size: 34px;
+    color: #252525;
+}
+
+.dvOuterGrey {
+    background: #F0F0F0;
+    width: 100%;
+}
+
+.dvFoodTitle {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+.dvPointsTotal {
+    margin-left: 5%;
+    width: 95%;
+    display: inline-block;
+}
+
+.dvRightPoints {
+    width: 20%;
+    float: left;
+    max-width: 30px;
+}
+
+.dvPointsRight {
+    width: 80%;
+    float: left;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#dvFeatureDrop {
+    padding: 25px 0px;
+    margin-left: 5%;
+}
+
+.dvFeaturedPickUpCol {
+    width: 14%;
+    max-width: 130px;
+    display: inline-block;
+}
+
+.dvPoints {
+    width: 100%;
+    margin-bottom: 15px;
+    clear: both;
+    display: inline-block;
+}
+
+#signupModal .modal-dialog {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+#signupModal .modal-header {
+    display: none;
+}
+
+#signupModal .modal-content {
+    border-radius: 0px;
+    margin-top: 40px;
+     border-width: 3px;
+}
+
+.modal-backdrop {
+    z-index: 98;
+}
+
+.dvPopUpBG {
+    background: #fff;
+    border-radius: 0px;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    padding: 10px 25px 15px 25px;
+}
+
+    .dvPopUpBG .form-control {
+    border-radius: 0px;
+    height: 35px;
+
+   
+    }
+
+    .dvPopUpBG label {
+    color: #777777;
+    font-size: 17px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    }
+
+.CreateAccountBtn {
+    width: 100%;
+    background-color: #020202;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 6px 12px;
+    border: none;
+}
+.benef {
+    padding: 4% 0px;
+}
+.centrado {
+    margin: 0 auto;
+}
+.dvHomeHowItWorkBG2 {
+    background-color: #ffffff;
+    width: 100%;
+    /* height: 396px; */
+}
+.benetit {
+    font-size: 23px;
+    font-weight: bold;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+.beneparr {
+    font-size: 16px;
+    color: #4d4c4c;
+}
+#loginModal .modal-dialog {
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+}
+
+#loginModal .modal-header {
+    display: none;
+}
+
+#loginModal .modal-content {
+    border-radius: 0px;
+    margin-top: 50%;
+}
+
+.dvLoginPopUpBG {
+    background: #fff;
+    border-radius: 0px;
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+    padding: 0px 25px 15px 25px;
+}
+
+    .dvLoginPopUpBG .form-control {
+        border-radius: 0px;
+    }
+
+    .dvLoginPopUpBG label {
+        color: #777;
+    }
+
+.LoginBtn {
+    width: 100%;
+    background-color: #020202;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 6px 12px;
+    border: none;
+}
+
+.loginLogo {
+    margin: 10px 0px 30px 0px;
+    text-align: center;
+}
+
+#FoodCarousel {
+    max-width: 955px;
+    width: 100%;
+    margin-left: 10px;
+}
+
+    #FoodCarousel .carousel-control {
+        width: auto;
+    }
+
+        #FoodCarousel .carousel-control.left,
+        #FoodCarousel .carousel-control.right {
+            background-image: none;
+        }
+
+#ShopperCarousel {
+    max-width: 945px;
+    width: 100%;
+    margin-left: 10px;
+}
+
+    #ShopperCarousel .carousel-control {
+        width: auto;
+    }
+
+        #ShopperCarousel .carousel-control.left,
+        #ShopperCarousel .carousel-control.right {
+            background-image: none;
+        }
+
+#PickupCarousel {
+    max-width: 945px;
+    width: 100%;
+    margin-left: 10px;
+}
+
+    #PickupCarousel .carousel-control {
+        width: auto;
+    }
+
+        #PickupCarousel .carousel-control.left,
+        #PickupCarousel .carousel-control.right {
+            background-image: none;
+        }
+
+    #PickupCarousel .col-md-3 {
+        text-align: center;
+    }
+
+#Ali {
+    width: 18%;
+}
+
+#Viceroy {
+    margin-left: 3%;
+}
+
+.FoodDeliveryOuter {
+    padding-top: 25px;
+    /* IE10+ */
+    background-image: -ms-linear-gradient(top, #FFFFFF 0%, #F0F0F0 70%);
+    /* Mozilla Firefox */
+    background-image: -moz-linear-gradient(top, #FFFFFF 0%, #F0F0F0 70%);
+    /* Opera */
+    background-image: -o-linear-gradient(top, #FFFFFF 0%, #F0F0F0 70%);
+    /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(70, #F0F0F0));
+    /* Webkit (Chrome 11+) */
+    background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #F0F0F0 70%);
+    /* W3C Markup */
+    background-image: linear-gradient(to bottom, #FFFFFF 0%, #F0F0F0 70%);
+}
+
+.dvPickUpOuter {
+    padding-top: 25px;
+    /* IE10+ */
+    background-image: -ms-linear-gradient(top, #FFFFFF 0%, #F0F0F0 90%);
+    /* Mozilla Firefox */
+    background-image: -moz-linear-gradient(top, #FFFFFF 0%, #F0F0F0 90%);
+    /* Opera */
+    background-image: -o-linear-gradient(top, #FFFFFF 0%, #F0F0F0 90%);
+    /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(90, #F0F0F0));
+    /* Webkit (Chrome 11+) */
+    background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #F0F0F0 90%);
+    /* W3C Markup */
+    background-image: linear-gradient(to bottom, #FFFFFF 0%, #F0F0F0 90%);
+}
+
+.dvShopperOuter {
+    padding-top: 25px;
+    /* IE10+ */
+    background-image: -ms-linear-gradient(top, #FFFFFF 0%, #F0F0F0 90%);
+    /* Mozilla Firefox */
+    background-image: -moz-linear-gradient(top, #FFFFFF 0%, #F0F0F0 90%);
+    /* Opera */
+    background-image: -o-linear-gradient(top, #FFFFFF 0%, #F0F0F0 90%);
+    /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(90, #F0F0F0));
+    /* Webkit (Chrome 11+) */
+    background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #F0F0F0 90%);
+    /* W3C Markup */
+    background-image: linear-gradient(to bottom, #FFFFFF 0%, #F0F0F0 90%);
+}
+
+.FiveGuysCol {
+    width: 139px;
+    margin: 6px 0px 0px 50px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.SubWayCol {
+    width: 161px;
+    margin: 6px 0px 0px 25px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.LimeCol {
+    width: 118px;
+    margin: 0px 0px 0px 8px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.McdonaldCol {
+    width: 91px;
+    margin: 0px 0px 0px 25px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.PinkBerryCol {
+    width: 161px;
+    margin: 14px 0px 0px 25px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.QueenCol {
+    width: 85px;
+    margin: 0px 0px 0px 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.OxxoCol {
+    width: 148px;
+    margin: 6px 0px 0px 45px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.WalgreensCol {
+    width: 169px;
+    margin: 20px 0px 0px 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.WholeFoodsCol {
+    width: 85px;
+    margin: 0px 0px 0px 25px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.TargetCol {
+    width: 57px;
+    margin: 0px 0px 0px 45px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.FedExCol {
+    width: 112px;
+    margin: 25px 0px 0px 45px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.StaplesCol {
+    width: 86px;
+    margin: 10px 0px 0px 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.WhatWeDoOuter {
+    margin: 3% auto auto auto;
+}
+
+.WhatWeDoBannerScotter {
+    text-align: center;
+}
+
+.dvWhatWeBannerText {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: normal;
+    margin: 4% auto 3% auto;
+    max-width: 500px;
+    text-align: center;
+    width: 100%;
+}
+
+.linea-whatwedo{
+
+    background-color: #020202;
+    height: 3px;
+}
+
+.WhatWeDoBannerSmallText {
+    color: #fff;
+    font-size: 18px;
+    margin: auto auto 8.3% auto;
+    max-width: 988px;
+    text-align: center;
+    width: 100%;
+}
+
+.dvMapBG {
+    //background-image: url('/images/WhatWeDoMapBG.png');
+    background-image: url('/images/MapBackground.png');
+    background-size: cover;
+    width: 100%;
+    height: 667px;
+}
+
+.dvMapLeft {
+    width: 40%;
+    float: left;
+    max-width: 623px;
+    padding: 270px 0px 0px 0px;
+}
+
+.dvMapRight {
+    width: 45%;
+    float: right;
+    padding: 75px 0px 0px 0px;
+}
+
+    .dvMapRight img {
+        width: 100%;
+        max-width: 561px;
+    }
+
+.wdDeliveryBigText {
+    font-size: 50px;
+    color: #515151;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+
+.wdDeliverySmallText {
+    font-size: 18px;
+    color: #252525;
+}
+
+.wdDeliveryBoldText {
+    font-size: 16px;
+    color: #252525;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.wdPointLeft {
+    width: 20%;
+    float: left;
+    max-width: 40px;
+    margin-bottom: 20px;
+}
+
+.wdPointRight {
+    width: 80%;
+    float: left;
+    margin-bottom: 20px;
+    padding-top: 3px;
+}
+
+.wdExampleLeft {
+    width: 35%;
+    float: left;
+    max-width: 125px;
+}
+
+.wdExampleRight {
+    width: 65%;
+    float: left;
+}
+
+.wdPaymentBG {
+    background-image: url('/images/WhatWeDoPaymentBG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f0f0f0;
+    width: 100%;
+    height: 453px;
+}
+
+.wdPaymentOuter {
+    width: 100%;
+    max-width: 670px;
+    margin: auto;
+}
+
+.wdPaymentBigText {
+    font-size: 50px;
+    font-weight: 300;
+    color: #353535;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 25px auto;
+}
+
+.wdPaymentMidText {
+    font-size: 18px;
+    color: #252525;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto auto 0px auto;
+}
+
+.wdPaymentSmallText {
+    font-size: 18px;
+    color: #353535;
+    text-align: center;
+    margin: auto auto 25px auto;
+}
+
+.wdPaymentBorder {
+    border-bottom: 1px solid #AAAAAA;
+    width: 25%;
+    max-width: 225px;
+    margin: 40px auto auto auto;
+}
+
+.wdHourBG {
+    background-image: url('/images/WhatWeDoHourBG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding-bottom: 25px;
+}
+
+.wdOurFounder {
+    background-color: #f0f0f0;
+    background-image: url('/images/WhatWeDoAboutOurFoundersBan.png');
+    background-size: 100% 654px;
+    height: 400px;
+    /*height: 654px;*/
+}
+
+    .wdOurFounder .wdHourBigText {
+        color: #353535;
+        font-size: 50px;
+        font-weight: 300;
+    }
+
+    .wdOurFounder .wdHourSmallText {
+        color: #353535;
+    }
+
+.wdHourOuter {
+    width: 100%;
+    max-width: 960px;
+    margin: auto;
+}
+
+.wdHourBigText {
+    font-size: 50px;
+    color: #FFFFFF;
+    font-weight: 300;
+    text-align: center; text-transform: capitalize;
+    margin: 60px auto 20px auto;
+}
+
+.wdHourSmallText {
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.wdCostBG {
+    background-image: url('/images/WhatWeDoCostBG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 555px;
+}
+
+.wdCostOuter {
+    width: 100%;
+    padding: 65px 0px 0px 0px;
+}
+
+.wdCostBigText {
+    font-size: 50px;
+    color: #FFFFFF;
+    font-weight: 300;
+    text-align: center;
+    margin: 40px auto 30px auto; text-transform: capitalize;
+}
+
+.wdCostSmallText {
+    font-size: 18px;
+    font-weight: 300;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.wdFormulaText {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.wdSignText {
+    color: #020202;
+    font-weight: 700;
+}
+
+#CostTableOne .table thead {
+    background: #fff none repeat scroll 0 0;
+    border: medium none;
+    color: #000000;
+}
+
+#CostTableOne .table-bordered {
+    border: solid #fff;
+    border-width: 0px 2px 2px 2px;
+}
+
+#CostTableOne th {
+    text-align: center;
+    border: medium none;
+}
+
+#CostTableOne td {
+    border: medium none;
+    color: #fff;
+    text-align: center;
+}
+
+.wdEquation {
+    margin-bottom: 30px; color:#fff; font-size:18px;
+}
+
+    .wdEquation img {
+        width: 100%;
+        max-width: 605px;
+    }
+
+.wdCostExp {
+    margin: 30px 0px 20px 0px;
+}
+
+.wdCostSumLine {
+    margin-bottom: 20px;
+}
+
+#CostTableTwo .table thead {
+    background: #fff none repeat scroll 0 0;
+    border: medium none;
+    color: #000000;
+}
+
+#CostTableTwo .table-bordered {
+    border: solid #fff;
+    border-width: 0px 2px 2px 2px;
+    width: 100%;
+    max-width: 450px;
+    margin: auto;
+}
+
+#CostTableTwo th {
+    text-align: center;
+    border: medium none;
+}
+
+#CostTableTwo td {
+    border: medium none;
+    color: #fff;
+    text-align: center;
+}
+
+.ContactBannerOuter {
+    margin: 13% auto 19% auto;
+    width: 100%;
+    max-width: 985px;
+}
+
+.dvContactMiddle {
+    color: #fff;
+    font-size: 50px;
+    line-height: normal;
+    font-weight: 300;
+    text-align: center;
+}
+
+.ContactBannerIcon {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.FaqBannerOuter {
+    margin: 22% auto 9% auto;
+    width: 100%;
+    max-width: 800px;
+}
+
+.dvFaqMiddle {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.FaqBannerIcon {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.FaqBottomBannerBG {
+    background-image: url("/images/FaqBottomBanner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 320px;
+    width: 100%;
+}
+
+.FaqBottomOuter {
+    width: 100%;
+    max-width: 950px;
+    padding: 0 0 0 95px;
+    margin: auto;
+}
+
+.FaqBottomBigText {
+    font-size: 36px;
+    font-weight: 300;
+    color: #252525;
+    text-align: center;
+    margin: 65px auto 30px auto;
+}
+
+.FaqBottomSmallText {
+    font-size: 16px;
+    font-weight: 300;
+    color: #252525;
+    text-align: center;
+}
+
+.dvHomeBannerOuter {
+    /* margin: 18% auto 24.5% auto; */
+    margin: 16% auto;
+    width: 100%;
+    /* max-width: 935px; */
+}
+
+.dvHomeBannerTopText {
+    font-size: 50px;
+    font-weight: 100;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.new-style-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 54px;
+    text-shadow: 3px 3px 6px #4a4949;
+}
+.mylivechat_sprite
+{
+    /*background-image: none !important;*/
+    font-family: "Glyphicons Halflings" !important;
+    content: "\e260";
+    
+}
+.DnnModule-Blog
+{
+    background-color: #e2e2e2;
+}
+.ModBlogC .is-post .info
+{
+    left: 0px !important;
+        margin-top: 3em;
+    display: none;
+}
+.ModBlogC .is-post
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    float: left;
+        width: 50%;
+        position: relative;
+
+}
+.post-details
+{
+    width: 100% !important;
+}
+.ModBlogC .is-post header {
+    /*margin-left: 8em !important;*/
+}
+.ModBlogC div.summary {
+    text-align: justify;
+}
+.is-post-excerpt > div > a
+{
+    /* margin-left: 8em;*/
+}
+.ModBlogC .blog-main-content {
+    width: 90%;
+    margin: 0 auto;
+        padding: 1em 1em 1em 1em !important;
+}
+.ModBlogC .post-details .socialbar {
+    /*margin-left: 112px;*/
+}
+.ModBlogC .is-post p
+{
+       /* margin-left: 116px;*/
+           width: 90%;
+           text-align: justify;
+}
+.ModBlogC .blog_comments {
+       margin-left: 75px;
+       width: 100%;
+    float: left;
+}
+.ModBlogC .blog_topPad {
+       margin-left: 85px;
+         width: 100%;
+    float: left;
+}
+.ModBlogC article.is-post>:last-child
+{
+    border:none !important;
+}
+.ModBlogC .is-post .image-full {
+    width: 91% !important;
+   /* margin: 0 0 2em 8em !important;*/
+}
+
+#dnn_ctr619_Blog_ctlManagement_pnlManagement
+{
+    /*height:  0px !important;*/
+}
+#dnn_ctr619_Blog_ctlManagement_pnlManagement > div
+{
+    display: none;
+}
+
+.mylivechat_prechat_submit_button, .mylivechat_prechat_survey_button, .mylivechat_offline_submit_button
+{
+    color : #fff;
+        background-color: #020202;
+        border: 0 !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+.mylivechat_prechat_submit_button:hover, .mylivechat_offline_submit_button:hover, .mylivechat_prechat_survey_button:hover {
+   color : #fff  !important;
+    background-color: #020202  !important;
+    border: 0 !important;
+}
+div > [title~="Minimize"]:after {
+    content: "\2212";
+}
+.mylivechat_prechat_submit_button
+{
+    background-color: #020202 !important;
+    color : #fff !important;
+}
+.mylivechat_collapsed_text
+{
+        font-family: 'Roboto', sans-serif !important;
+}
+.dvHomeBannerSmallText {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 39px;
+    height: 85px;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+    .dvHomeBannerSmallText a {
+        color: #E1E1E1;
+        text-decoration: underline;
+    }
+
+.dvHomeBannerLoginText {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #010101;
+    text-align: center;
+    padding-top: 9px;
+    background-color: #000;
+    border-radius: 24px;
+    margin: auto;
+    cursor: pointer;
+    float: left;
+    /* margin-left: -70px; */
+    color: #010101;
+    width: 149px;
+    height: 48px;
+}
+
+.dvHomeBannerLoginText > a, .dvHomeBannerLoginText > a:hover, .dvHomeBannerLoginText > a:focus {
+    color: #fff !important;
+}
+
+.dvHomeBannerFormRow {
+    display: inline-block;
+    width: 100%;
+    clear: both;
+}
+
+.dvHomeBannerLeft {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 215px;
+}
+
+.dvHomeBannerCenter {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 720px;   
+}
+
+.dvHomeBannerRight {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 135px;
+}
+
+.dvHomeTextbox {
+    width: 635px;
+    border-radius:25px 0px 0px 25px;
+    height: 56px;
+    padding: 6px 25px;
+    font-size: 17px;
+    appearance: none;
+    -moz-appearance: none;
+    /* Firefox */
+    -webkit-appearance: none;
+    /* Safari and Chrome */
+    border: 0;
+    /*background: #fff url('/images/HomeDropDownArrow.png') no-repeat right;*/
+    font-weight: 300;
+    color: #000000;
+    margin-left: 11%;
+}
+
+.dvHomeDeliveryType {
+    appearance: none;
+    -moz-appearance: none;
+    /* Firefox */
+    -webkit-appearance: none;
+    /* Safari and Chrome */
+    width: 210px;
+    border: 0;
+    border-radius: 25px 0px 0px 25px;
+    height: 55px;
+    background: url('/images/HomeDropDownArrow.png') no-repeat right;
+    background-color: #020202;
+    font-size: 17px;
+    font-weight: 300;
+    color: #000000;
+    padding-left: 18px;
+}
+
+.dvHomeGoGetItBtn {
+    width: 136px;
+    height: 55px;
+    background-color: #020202;
+    border: 0;
+    border-radius: 0px 25px 25px 0px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #000;
+    padding: 14px 20px 5px 22px;
+}
+
+/*
+.dvHomeBlackBG {
+    background-image: url('/images/HomeBlackBg.png');
+    background-repeat: repeat;
+    background-color: #272425;
+    width: 100%;
+    height: 505px;
+}
+*/
+
+.dvHomeBlackBG {
+    background-color: #000;
+    width: 100%;
+    /*height: 505px;*/
+}
+
+.dvHomeBlackBGTopText {
+    font-size: 36px;
+    font-weight: 300;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 65px 0px;
+}
+
+.dvHomeBlackSubText {
+    font-size: 24px;
+    font-weight: 300;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 30px 0px 20px 0px;
+}
+
+.dvHomeBlackSmallText {
+    font-size: 18px;
+    font-weight: 300;
+    color: #AAAAAA;
+    text-align: center;
+}
+
+.dvHomeBlackBGIcon {
+    height: 90px;
+}
+
+.dvHomeOrImg {
+    padding-top: 40px;
+}
+
+.dvHomeBlackRow {
+    width: 100%;
+    max-width: 1015px;
+    margin: auto;
+}
+
+.dvHomeBlackCol1 {
+    width: 209px;
+    float: left;
+}
+
+.dvHomeBlackCol2 {
+    width: 155px;
+    text-align: right;
+    float: left;
+}
+
+.dvHomeBlackCol3 {
+    width: 261px;
+    float: left;
+    text-align: center;
+}
+
+.dvHomeBlackCol4 {
+    width: 119px;
+    text-align: right;
+    float: left;
+}
+
+.dvHomeBlackCol5 {
+    width: 265px;
+    float: left;
+    text-align: center;
+}
+
+.dvHomeHowItWorkBG {
+    /* background-image: url(/images/HomeGreyBg.png); */
+    background-color: #f2f2f2;
+    width: 100%;
+    /* height: 396px; */
+}
+
+.dvHomeHowWorkBigText {
+    font-size: 48px;
+    /* color: #252525; */
+   
+    font-weight: 500;
+    text-align: center;
+    padding: 30px 0px 36px 0px;
+}
+.hwletra2 >p {
+    padding: 24% 0px;
+    text-align: right !important;
+}
+.huno > img, .htres >img {
+    float: right;
+}
+#New_Home_Work_Outer_Row .dvHomeHowWorkBigText {
+    padding: 25px 0px;
+    /* padding: 50px 0px; */
+    color: #4d4c4c;
+    text-transform: uppercase;
+}
+.dvHomeHowWorkTotal {
+    width: 100%;
+    max-width: 1092px;
+    margin: auto;
+    text-align: center;
+}
+.hwletra > p, .hwletra2 > p {
+    padding: 23% 0px;
+    color: #4d4c4c;
+    font-size: 14px;
+    text-align: left;
+}
+.dvHomeHowWorkIcon {
+    padding-top: 40px;
+}
+
+.dvHomeHowWorkIconText {
+    font-size: 18px;
+    color: #2A2828;
+    text-align: center;
+    font-weight: 300;
+    margin: 25px 0px 0px 0px;
+}
+
+.dvHomeHowWorkCol1 {
+    width: 122px;
+    float: left;
+}
+
+.dvHomeHowWorkCol2 {
+    width: 114px;
+    float: left;
+}
+
+.dvHomeHowWorkCol3 {
+    width: 138px;
+    float: left;
+}
+
+.dvHomeHowWorkCol4 {
+    width: 98px;
+    float: left;
+}
+
+.dvHomeHowWorkCol5 {
+    width: 145px;
+    float: left;
+}
+
+.dvHomeHowWorkCol6 {
+    width: 100px;
+    float: left;
+}
+
+.dvHomeHowWorkCol7 {
+    width: 137px;
+    float: left;
+}
+
+.dvHomeHowWorkCol8 {
+    width: 97px;
+    float: left;
+}
+
+.dvHomeHowWorkCol9 {
+    width: 140px;
+    float: left;
+}
+
+.dvHomeBannerCenter ::-webkit-input-placeholder {
+    color: #999999;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.dvHomeBannerCenter :-moz-placeholder {
+    /* Firefox 18- */
+    color: #999999;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.dvHomeBannerCenter ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #999999;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.dvHomeBannerCenter :-ms-input-placeholder {
+    color: #999999;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.dvOrderHowItWorkBG {
+    background-image: url('/images/OrderPageBgTop.png');
+    width: 100%;
+    height: 367px;
+}
+
+.dvOrderHowWorkBigText {
+    font-size: 36px;
+    color: #FFFFFF;
+    font-weight: 300;
+    text-align: center;
+    padding: 40px 0px 40px 0px;
+}
+
+.dvOrderHowWorkTotal {
+    width: 100%;
+    max-width: 1092px;
+    margin: auto;
+    text-align: center;
+}
+
+.dvOrderHowWorkIcon {
+    padding-top: 40px;
+}
+
+.dvOrderHowWorkIconText {
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 300;
+    margin: 25px 0px 0px 0px;
+}
+
+.dvOrderHowWorkCol1 {
+    width: 122px;
+    float: left;
+}
+
+.dvOrderHowWorkCol2 {
+    width: 114px;
+    float: left;
+}
+
+.dvOrderHowWorkCol3 {
+    width: 138px;
+    float: left;
+}
+
+.dvOrderHowWorkCol4 {
+    width: 94px;
+    float: left;
+}
+
+.dvOrderHowWorkCol5 {
+    width: 150px;
+    float: left;
+}
+
+.dvOrderHowWorkCol6 {
+    width: 100px;
+    float: left;
+}
+
+.dvOrderHowWorkCol7 {
+    width: 137px;
+    float: left;
+}
+
+.dvOrderHowWorkCol8 {
+    width: 95px;
+    float: left;
+}
+
+.dvHomeHowWorkCol9 {
+    width: 140px;
+    float: left;
+}
+
+.dvThankuContactBG {
+    background: #292627;
+    width: 100%;
+    min-height: 1000px;
+}
+
+.dvContactThankuBigText {
+    font-size: 60px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #020202;
+    line-height: normal;
+    margin: 80px auto 40px auto;
+}
+
+.dvContactThankuMidText {
+    font-size: 41px;
+    font-weight: 300;
+    color: #FFF;
+    line-height: normal;
+    margin: auto auto 40px auto;
+}
+
+.dvContactThankuSmallText {
+    font-size: 25px;
+    font-weight: 300;
+    color: #FFF;
+    line-height: normal;
+    margin: auto auto 30px auto;
+}
+
+.CursorPointer {
+    cursor: pointer;
+}
+
+.dvBecomeGetterGreyBG {
+    background: #F0F0F0;
+    padding: 5% 0%;
+    color: #777;
+}
+
+.dvBecomeGetterTitleText {
+    font-size: 36px;
+    text-align: center;
+    margin: auto;
+    color: #252525;
+    width: 100%;
+    max-width: 610px;
+    font-weight: 100;
+}
+
+.dvBecomeGetterFormBG {
+    background: #fff;
+    padding: 20px 30px;
+    width: 100%;
+    max-width: 790px;
+    margin: auto;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+#dvStep3 {
+    max-width: 930px;
+}
+
+.dvBecomeGetterFormBG .form-control {
+    border-radius: 0px;
+    font-size: 16px;
+}
+
+.dvBecomeGetterFormBG textarea {
+    height: 120px;
+}
+
+.dvPersonalInfo {
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.dvOuterGrey {
+    background: #F0F0F0;
+}
+
+.NextBtn {
+    float: right;
+    text-align: right;
+    cursor: pointer;
+}
+
+.StepImgRow {
+    width: 100%;
+    margin: 25px auto;
+    display: inline-block;
+    text-align: center;
+}
+
+.dvStepsCircle {
+    width: 32%;
+    max-width: 100px;
+    text-align: center;
+    display: inline-block;
+}
+
+.dvBecomeGetterGreyBG select {
+    appearance: none;
+    -moz-appearance: none; /* Firefox */
+    -webkit-appearance: none; /* Safari and Chrome */
+    background: url('/images/BecomeAGoGetterDropDownIcn.png') no-repeat right;
+}
+
+#StepOneImg_Normal,
+#StepThreeImg_Hover,
+#StepTwoImg_Hover {
+    display: none;
+}
+
+.dvOrderFormBG {
+    /* background-image: url(/images/OrderPageBgBottom.png); */
+    /* background-image: url(/images/OrderPageBannerImg.png); */
+    /* background-image: url(/images/order-page-2.jpg); */
+    /* background-image: url(/images/oredering_page__new.jpg); */
+    /* background-image: url(/images/ordering_page__new_2.jpg); */
+    /* background-image: url(/images/ordering_page_new3.jpg); */
+    background-color: #d3e2e7;
+    padding: 42px 0px 42px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center center; */
+}
+
+.dvOrderFormOuter {
+    width: 100%;
+    padding: 0px 15px;
+    max-width: 1210px;
+    margin: auto;
+}
+
+.dvOrderBottomBigText {
+    font-size: 20px;
+    font-weight: 800;
+    color: #000;
+    line-height: normal;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+    .dvOrderBottomBigText .dvOrderBottomSmallText {
+        width: 300px;
+        display: inline-block;
+        margin: 0px;
+    }
+
+.dvOrderBottomSmallText {
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+    margin-left: 15px;
+}
+
+.dvOrderFormRow {
+    width: 100%;
+    clear: both;
+    margin: 35px auto auto auto;
+    display: inline-block;
+}
+
+.dvOrderFormCol1 {
+    width: 290px;
+    float: left;
+}
+
+.dvOrderFormCol2 {
+    width: 465px;
+    float: left;
+    margin: 0px 40px 0px 28px;
+}
+
+.dvOrderFormCol3 {
+    width: 354px;
+    float: left;
+}
+
+.dvOrderFormRow .form-group {
+    margin-bottom: 12px;
+}
+
+.dvOrderFormRow .form-control {
+    background-color: #fff;
+    border-radius: 0px;
+    color: #999;
+    opacity: 1;
+    border-radius: 15px;
+    border: 1px solid #929090;
+}
+
+.dvOrderFormRow .dvOrderBottomBigText {
+    margin-bottom: 22px;
+}
+
+#OrderDescription {
+    height: 238px;
+}
+
+.dvStateLeft {
+    width: 180px;
+    float: left;
+}
+
+.dvStateRight {
+    width: 98px;
+    float: left;
+    margin-left: 12px;
+}
+
+.dvPickUpStateLeft {
+    width: 210px;
+    float: left;
+}
+
+.dvPickUpStateRight {
+    width: 132px;
+    float: left;
+    margin-left: 12px;
+}
+
+.btnBackTOP {
+    padding: 0 5px !important;
+}
+
+.dvOrderFormRow select {
+    border-radius: 15px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: #fff url(/images/OrderPageDropdown.png) no-repeat scroll right center;
+    border: 1px solid #929090;
+    opacity: 1;
+}
+
+.dvOrderFormRow #ddlPickUpZip.form-control, .dvOrderFormRow #ddlDeliveryZip.form-control {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: #fff url(/images/OrderPageDropdown.png) no-repeat scroll right center;
+    color: #999;
+    opacity: 1;
+}
+.dvReciveOrderBtn {
+    margin-top: 12px;
+    float: right;
+    clear: both;
+}
+
+.ModOrderSummaryC {
+    background-color: #d3e2e7;
+}
+
+.OrderSummaryBG {
+    /* background-image: url(/images/OrderPageSummaryBG.png); */
+    /* background-image: url(/images/OrderPageSummaryImg.png); */
+    /* background-image: url(/images/order_summary_new.jpg); */
+    /* background-image: url(/images/order_summary_new2.jpg); */
+    background-color: #d3e2e7;
+    width: 100%;
+    max-width: 1170px;
+    /* height: 965px; */
+    margin: auto;
+    padding: 30px 65px 15px 50px;
+    background-repeat: no-repeat;
+    /* background-size: 100% 904px; */
+    background-size: cover;
+    background-position: center center;
+}
+
+.ddl_black {
+    border: 1px solid #CCCCCC;
+    /*height: 42px;*/
+    background-color: #292627;
+    opacity: 0.65;
+    color: #999999;
+    font-size: 16px;
+    line-height: normal !important;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.osTopText {
+    font-size: 40px;
+    font-weight: 300;
+    color: #444;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: normal;
+    margin: auto auto 40px auto;
+}
+.osPointBigText {
+    /* font-size: 22px; */
+    /* text-transform: uppercase; */
+    /* font-weight: 800; */
+    /* color: #000; */
+    font-size: 20px;
+    font-weight: 800;
+    color: #000;
+    /* line-height: normal; */
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.osPointSmallText {
+    font-size: 18px;
+    font-weight: 300;
+    color: #444;
+}
+
+.osPointYellowText {
+    font-size: 16px;
+    font-weight: 300;
+    color: #444;
+}
+
+    .osPointYellowText a {
+        text-decoration: underline;
+        color: #444;
+    }
+
+.osPointLeft {
+    text-align: left;
+    width: 20%;
+    max-width: 65px;
+    float: left;
+}
+
+.osPointRight {
+    width: 80%;
+    float: left;
+}
+
+.osPointTotal {
+    width: 100%;
+    clear: both;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.osCCTextBoxRow {
+    width: 100%;
+    margin: 25px 0px;
+    float: left;
+}
+
+.osCCNumberCol {
+    width: 250px;
+    float: left;
+}
+
+.osCCExpDateCol {
+    width: 235px;
+    float: left;
+}
+
+.osCCCVVCol {
+    width: 80px;
+    float: left;
+}
+
+.osCCZipCol {
+    width: 142px;
+    float: left;
+}
+
+.osCCNumberTextBox {
+    width: 232px;
+    background-color: #fff;
+    border-radius: 0px;
+    color: #999;
+    opacity: 1;
+    border-radius: 15px;
+    border: 1px solid #929090;
+    height: 42px;
+    /* background-color: #292627; */
+    /* opacity: 0.65; */
+    /* color: #999999; */
+    padding: 6px 12px;
+    font-size: 16px;
+}
+
+.osCCExpDateTextBox {
+    width: 215px;
+    border: 1px solid #CCCCCC;
+    height: 42px;
+    background-color: transparent;
+    color: #999999;
+    padding: 6px 12px;
+    font-size: 16px;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+    background-color: #020202;
+    color: white !important;
+}
+.osCCCVVTextBox {
+    width: 62px;
+    border: 1px solid #CCCCCC;
+    height: 42px;
+    background-color: #fff;
+    opacity: 0.65;
+    color: #999999;
+    padding: 6px 12px;
+    font-size: 16px;
+    color: #999;
+    opacity: 1;
+    border-radius: 15px;
+    border: 1px solid #929090;
+}
+
+.osCCZipTextBox {
+    width: 138px;
+    border: 1px solid #CCCCCC;
+    height: 42px;
+    background-color: #292627;
+    opacity: 0.65;
+    color: #999999;
+    padding: 6px 12px;
+    font-size: 16px;
+}
+
+.osPrivacyText {
+    font-size: 12px;
+    color: #444;
+    font-weight: 300;
+}
+
+    .osPrivacyText a {
+        text-decoration: underline;
+        color: #444;
+    }
+
+.osGoBtn {
+    margin: 10px 0px 0px 0px;
+}
+
+/*HOME HOW TO WORK ICONS*/
+.row-icons {
+    margin-bottom: 50px;
+}
+.row-icons .col-arrow {
+    display: none;
+} 
+.NewFeaturedRow .FeaturedLogoText {
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 0;
+}
+
+.phoneBlackBold {
+    color: #000;
+    font-weight: bold;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    #PickUpDate, #PickUpTime {
+        width: 100% !important;
+    }
+}
+
+/********************************************Responsive CSS**************************************/
+
+/*HOME HOW TO WORK ICONS*/
+@media (min-width: 992px) {
+    
+    .row-icons .col-icon,
+    .row-icons .col-arrow {
+        float: left;
+    }
+
+    .row-icons .col-icon {
+        width: 12%;
+    }
+
+    .row-icons .col-icon .dvHomeHowWorkIconText {
+        line-height: 30px;
+    }
+
+    .row-icons .col-icon img {
+        height: 100px;
+    }
+    .row-icons .col-arrow {
+        width: 5%;
+        /*margin-top: 55px;*/
+        margin-top: 130px;
+        display: block;
+    }
+}
+
+/*Header*/
+
+@media (min-width: 320px) and (max-width: 360px) {
+    #logopane img {
+        width: 100%;
+    }
+
+    .navbar-brand {
+        width: 80%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+
+    .navbar > .container {
+        padding: 0;
+        width: 98%;
+    }
+}
+
+
+/*Footer*/
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+    .dvFootercolumnOne {
+        width: 100% !important;
+        float: none !important;
+        text-align: center;
+        margin: auto auto 15px auto;
+        clear: both;
+        display: inline-block;
+    }
+
+    .dvFootercolumnTwo {
+        width: 100% !important;
+        float: none !important;
+        margin: auto auto 15px auto;
+        text-align: center;
+        clear: both;
+        display: inline-block;
+    }
+
+    .dvFootercolumnThree {
+        width: 100% !important;
+        float: none !important;
+        margin: auto auto 15px auto;
+        text-align: center;
+        clear: both;
+        display: inline-block;
+    }
+
+    #drFooter .col-md-8 {
+        clear: both;
+        overflow: auto;
+    }
+
+    #drFooter .col-md-2 {
+        margin: 10px 0;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .dvFootercolumnOne {
+        width: 18% !important;
+    }
+
+    .dvFootercolumnTwo {
+        width: 65% !important;
+        padding: 0% 1%;
+        text-align: center;
+    }
+
+    .dvFootercolumnThree {
+        width: 15% !important;
+    }
+
+    #FooterRow .col-md-12 {
+        padding: 0;
+        width: 98%;
+    }
+
+    #FooterRow .container {
+        padding: 0;
+        width: 98%;
+    }
+}
+
+/*Home*/
+
+@media (min-width: 320px) and (max-width: 550px) {
+    .dvHomeBannerTopText {
+        font-size: 32px;
+    }
+
+    .dvHomeBannerSmallText {
+        font-size: 18px;
+    }
+
+    .dvHomeBlackBGTopText {
+        font-size: 26px;
+        margin: 30px 0px;
+    }
+
+    .dvHomeBlackSubText {
+        font-size: 20px;
+    }
+
+    .dvHomeBlackSmallText {
+        font-size: 16px;
+    }
+
+    .dvHomeHowWorkBigText {
+        font-size: 30px;
+        padding: 30px 0px;
+    }
+
+    .dvHomeHowWorkIconText {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 551px) and (max-width: 767px) {
+    .dvHomeBannerTopText {
+        font-size: 40px;
+    }
+
+    .dvHomeBlackBGTopText {
+        font-size: 30px;
+        margin: 30px 0px;
+    }
+
+    .dvHomeHowWorkBigText {
+        font-size: 30px;
+        padding: 35px 0px;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 600px) {
+    .dvHomeBannerLeft,
+    .dvHomeBannerCenter,
+    .dvHomeBannerRight {
+        width: 100%;
+        clear: both;
+    }
+
+    .dvHomeDeliveryType,
+    .dvHomeGoGetItBtn {
+        width: 100%;
+        border-radius: 25px;
+    }
+
+    .dvHomeTextbox {
+        width: 100%;
+        border-radius: 25px;
+        border: none;
+        margin: 10px 0px;
+    }
+
+    .FaqBottomOuter {
+        padding: 0px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 991px) {
+    .dvHomeBannerLeft {
+        width: 25.5%;
+        float: left;
+    }
+
+    .dvHomeBannerCenter {
+        width: 50%;
+        margin: 0 8px;
+        float: left;
+    }
+
+    .dvHomeBannerRight {
+        width: 20%;
+        float: left;
+    }
+
+    .dvHomeDeliveryType {
+        width: 100%;
+        max-width: 185px;
+        font-size: 14px;
+        padding-left: 10px;
+    }
+
+    .dvHomeTextbox {
+        width: 100%;
+        max-width: 571px;
+    }
+
+    .dvHomeGoGetItBtn {
+        width: 100%;
+        max-width: 136px;
+        font-size: 14px;
+        padding: 18px 20px 5px 10px;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .dvHomeBannerCenter ::-webkit-input-placeholder {
+        font-size: 16px;
+    }
+
+    .dvHomeBannerCenter :-moz-placeholder {
+        /* Firefox 18- */
+        font-size: 16px;
+    }
+
+    .dvHomeBannerCenter ::-moz-placeholder {
+        /* Firefox 19+ */
+        font-size: 16px;
+    }
+
+    .dvHomeBannerCenter :-ms-input-placeholder {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+    .dvHomeBlackCol1,
+    .dvHomeBlackCol2,
+    .dvHomeBlackCol3,
+    .dvHomeBlackCol4,
+    .dvHomeBlackCol5 {
+        width: 100%;
+        clear: both;
+        text-align: center;
+    }
+
+    .dvHomeOrImg {
+        padding: 0px;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .dvHomeHowItWorkBG {
+        background-image: none;
+        display: inline-block;
+        height: auto;
+        background-color: #E2E2E2;
+    }
+
+    .dvHomeBlackBG {
+        background-image: none;
+        display: inline-block;
+        height: auto;
+        /*background-color: #292627;*/
+        background-color: #000;
+    }
+
+    .dvHomeHowWorkCol1,
+    .dvHomeHowWorkCol2,
+    .dvHomeHowWorkCol3,
+    .dvHomeHowWorkCol4,
+    .dvHomeHowWorkCol5,
+    .dvHomeHowWorkCol6,
+    .dvHomeHowWorkCol7,
+    .dvHomeHowWorkCol8,
+    .dvHomeHowWorkCol9 {
+        width: 100%;
+        clear: both;
+        text-align: center;
+    }
+
+    .dvHomeHowWorkIcon {
+        padding: 0px;
+        margin: 20px auto;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+
+    .dvHomeBlackCol1,
+    .dvHomeBlackCol2,
+    .dvHomeBlackCol3,
+    .dvHomeBlackCol4,
+    .dvHomeBlackCol5 {
+        width: 20%;
+        text-align: center;
+    }
+
+    .dvHomeOrImg {
+        padding: 0px;
+        margin: 20px auto;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+
+    .dvHomeHowItWorkBG {
+        background-image: none;
+        display: inline-block;
+        height: auto;
+        background-color: #E2E2E2;
+    }
+
+    .dvHomeBlackBG {
+        background-image: none;
+        display: inline-block;
+        height: auto;
+        /*background-color: #292627;*/
+        background-color: #000;
+    }
+
+    .dvHomeHowWorkCol1,
+    .dvHomeHowWorkCol3,
+    .dvHomeHowWorkCol5,
+    .dvHomeHowWorkCol7,
+    .dvHomeHowWorkCol9 {
+        width: 12%;
+        text-align: center;
+        margin: auto auto 20px auto;
+    }
+
+
+    .dvHomeHowWorkCol2,
+    .dvHomeHowWorkCol4,
+    .dvHomeHowWorkCol6,
+    .dvHomeHowWorkCol8 {
+        width: 10%;
+        text-align: center;
+        margin: auto auto 20px auto;
+    }
+
+    .dvHomeHowWorkIcon {
+        padding: 0px;
+        margin: 20px auto;
+        text-align: center;
+    }
+}
+
+
+/*Contact Us*/
+
+@media (min-width: 320px) and (max-width: 550px) {
+
+    .dvContactMiddle {
+        font-size: 26px;
+    }
+
+    .dvContactTitleText {
+        font-size: 20px;
+    }
+
+    .dvContactPreferText {
+        font-size: 26px;
+    }
+}
+
+@media (min-width: 551px) and (max-width: 767px) {
+    .dvContactMiddle {
+        font-size: 30px;
+    }
+
+    .dvContactTitleText {
+        font-size: 24px;
+    }
+
+    .dvContactPreferText {
+        font-size: 30px;
+    }
+}
+
+/*FAQ*/
+
+@media (min-width: 320px) and (max-width: 500px) {
+
+    .FaqBottomBigText {
+        margin: 30px auto 20px auto;
+         
+        font-size: 25px;
+    }
+
+    .FaqBottomSmallText {
+        font-size: 15px;
+        
+    }
+}
+
+/*What We Do*/
+
+@media (min-width: 320px) and (max-width: 550px) {
+    .dvWhatWeBannerText {
+        font-size: 35px;
+    }
+
+    .WhatWeDoBannerSmallText,
+    .wdCostSmallText,
+    .wdPaymentSmallText,
+    .wdFormulaText,
+    .wdSignText {
+        font-size: 16px;
+    }
+
+    .wdOurFounder {
+        /*background-image: none;*/
+        background-color: #D0E7FF;
+        height: auto;
+    }
+
+    .wdCostOuter {
+        padding: 60px 15px 0px 15px;
+    }
+
+    .wdDeliveryBigText {
+        font-size: 28px;
+    }
+
+    .dvMapLeft {
+        padding: 20px 0px 0px 0px;
+    }
+
+    .wdDeliverySmallText,
+    .wdDeliveryBoldText {
+        font-size: 16px;
+    }
+
+    .wdCostBigText,
+    .wdPaymentBigText {
+        font-size: 28px;
+        margin: 25px 0px;
+    }
+
+    .wdHourBigText {
+        font-size: 30px !important;
+    }
+
+    .wdHourSmallText {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 551px) and (max-width: 767px) {
+    .dvWhatWeBannerText {
+        font-size: 40px;
+    }
+
+    .WhatWeDoBannerSmallText {
+        font-size: 16px;
+    }
+
+    .wdDeliveryBigText {
+        font-size: 32px;
+    }
+
+    .dvMapLeft {
+        padding: 30px 0px 0px 0px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+    .dvMapBG {
+        /* background-image: none; */
+        background-color: #DCDCDC;
+        height: auto;
+        /*display: inline-block;*/
+        padding-bottom: 20px;
+    }
+
+    .dvMapLeft {
+        width: 100%;
+        clear: both;
+    }
+
+    .dvMapRight {
+        width: 100%;
+        clear: both;
+    }
+
+    .wdCostBG {
+        background-image: none;
+        background-color: #3F3C3B;
+        height: auto;
+        display: inline-block;
+        padding-bottom: 20px;
+    }
+
+    .wdPaymentBG {
+        background-image: none;
+        background-color: #EFEFEF;
+        height: auto;
+        display: inline-block;
+        padding-bottom: 20px;
+    }
+}
+
+
+
+/*Become-A-Go-Getter*/
+
+@media (min-width: 320px) and (max-width: 550px) {
+    .dvBannerBecomeText {
+        font-size: 36px;
+        line-height: normal;
+    }
+
+    .dvBecomeGetterTitleText {
+        font-size: 24px;
+    }
+
+    .dvBecomeGetterFormBG {
+        padding: 15px;
+    }
+
+    .dvPersonalInfo {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 551px) and (max-width: 767px) {
+
+    .dvBannerBecomeText {
+        font-size: 40px;
+        line-height: normal;
+    }
+
+    .dvBecomeGetterTitleText {
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 991px) {
+
+    .col1 {
+        width: 100%;
+        clear: both;
+    }
+
+    .dvBannerOuter {
+        margin: auto;
+    }
+
+    .dvBannerLine {
+        display: none;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 525px) {
+    .dvBannerOnImg {
+        margin: 10px auto;
+    }
+
+    .dvBnnerSubText {
+        margin: auto;
+    }
+}
+
+/*Featured-Gets*/
+
+@media (min-width: 320px) and (max-width: 550px) {
+    .dvBannerGetsText {
+        font-size: 36px;
+        line-height: normal;
+    }
+
+    .dvBnnerSubText {
+        font-size: 18px;
+    }
+
+    .dvStilltext,
+    .dvChecktext {
+        font-size: 26px;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 767px) {
+    .dvBannerGetsText {
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+    .dvStilltext,
+    .dvChecktext {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 991px) {
+    .dvGetsBannerOuter {
+        margin: auto;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    /*.FiveGuysCol,
+    .SubWayCol,
+    .LimeCol,
+    .McdonaldCol,
+    .PinkBerryCol,
+    .QueenCol {
+        width: 100%;
+        clear: both;
+        text-align: center;
+        margin: auto auto 10px auto;
+    }
+
+    .dvSlide {
+        display: none !important;
+    }
+
+    #FoodCarousel .carousel-control {
+        top: 50%;
+    }
+
+
+
+    .dvFeaturedPickUpCol {
+        width: 100%;
+        clear: both;
+        margin: auto auto 20px auto;
+        text-align: center;
+    }
+
+    .OxxoCol,
+    .WalgreensCol,
+    .WholeFoodsCol,
+    .TargetCol,
+    .FedExCol,
+    .StaplesCol {
+        width: 100%;
+        clear: both;
+        text-align: center;
+        margin: auto auto 10px auto;
+    }
+
+    #ShopperCarousel .carousel-control {
+        top: 50%;
+    }*/
+
+    #FoodCarousel,
+    #PickupCarousel,
+    #ShopperCarousel {
+        display: none;
+    }
+}
+
+@media (min-width: 1100px) and (max-width: 5000px) {
+    #FoodCarousel,
+    #PickupCarousel,
+    #ShopperCarousel {
+        height: 120px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+
+    /*#FoodCarousel {
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .dvSlide {
+        display: none !important;
+    }
+
+    .FiveGuysCol,
+    .SubWayCol,
+    .LimeCol,
+    .McdonaldCol,
+    .PinkBerryCol,
+    .QueenCol {
+        width: 15%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .item img {
+        width: 100%;
+    }
+
+    .FiveGuysCol {
+        margin-left: 5%;
+    }
+
+    .dvFeaturedPickUpCol {
+        width: 13%;
+    }
+
+    #FoodCarousel {
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .OxxoCol,
+    .WalgreensCol,
+    .WholeFoodsCol,
+    .TargetCol,
+    .FedExCol,
+    .StaplesCol {
+        width: 15%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .item img {
+        width: 100%;
+    }
+
+    .WholeFoodsCol img {
+        width: 100%;
+        max-width: 85px;
+    }
+
+    .TargetCol img {
+        width: 100%;
+        max-width: 57px;
+    }
+
+    .StaplesCol img {
+        width: 100%;
+        max-width: 86px;
+    }
+
+    .OxxoCol {
+        margin-left: 5%;
+    }*/
+
+    .dvSlide img {
+        width: 70%;
+        display: inline-block;
+    }
+
+    #PickupCarousel .col-md-3 {
+        display: inline-block;
+        margin: auto 2%;
+        text-align: center;
+        width: 18%;
+    }
+
+    .FiveGuysCol,
+    .SubWayCol,
+    .LimeCol,
+    .McdonaldCol,
+    .PinkBerryCol,
+    .QueenCol {
+        width: 15%;
+        text-align: center;
+        margin: auto;
+    }
+
+        .FiveGuysCol img,
+        .SubWayCol img,
+        .LimeCol img,
+        .McdonaldCol img,
+        .PinkBerryCol img,
+        .QueenCol img {
+            width: 70%;
+            display: inline-block;
+        }
+
+    .OxxoCol,
+    .WalgreensCol,
+    .WholeFoodsCol,
+    .TargetCol,
+    .FedExCol,
+    .StaplesCol {
+        width: 15%;
+        text-align: center;
+        margin: auto;
+    }
+
+        .OxxoCol img,
+        .WalgreensCol img,
+        .WholeFoodsCol img,
+        .TargetCol img,
+        .FedExCol img,
+        .StaplesCol img {
+            width: 70%;
+            display: inline-block;
+        }
+}
+
+
+/*My Account*/
+
+@media (min-width: 320px) and (max-width: 650px) {
+    #TabLeft {
+        width: 100%;
+        max-width: 100%;
+        padding: 20px;
+        margin: auto;
+    }
+
+    #TabMid {
+        display: none;
+    }
+
+    #TabRight {
+        width: 100%;
+        max-width: 100%;
+        padding: 20px;
+        margin: auto;
+    }
+}
+
+/* Order */
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+    .dvOrderHowItWorkBG {
+        background-image: none;
+        display: inline-block;
+        height: auto;
+        background-color: #3E3B3C;
+    }
+
+    .dvOrderHowWorkCol1,
+    .dvOrderHowWorkCol2,
+    .dvOrderHowWorkCol3,
+    .dvOrderHowWorkCol4,
+    .dvOrderHowWorkCol5,
+    .dvOrderHowWorkCol6,
+    .dvOrderHowWorkCol7,
+    .dvOrderHowWorkCol8,
+    .dvOrderHowWorkCol9 {
+        width: 100%;
+        clear: both;
+        text-align: center;
+    }
+
+    .dvOrderHowWorkIcon {
+        padding: 0px;
+        margin: 20px auto;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .dvOrderHowItWorkBG {
+        background-image: none;
+        display: inline-block;
+        height: auto;
+        background-color: #3E3B3C;
+    }
+
+    .dvOrderHowWorkCol1,
+    .dvOrderHowWorkCol3,
+    .dvOrderHowWorkCol5,
+    .dvOrderHowWorkCol7,
+    .dvOrderHowWorkCol9 {
+        width: 12%;
+        text-align: center;
+        margin: auto auto 20px auto;
+    }
+
+
+    .dvOrderHowWorkCol2,
+    .dvOrderHowWorkCol4,
+    .dvOrderHowWorkCol6,
+    .dvOrderHowWorkCol8 {
+        width: 10%;
+        text-align: center;
+        margin: auto auto 20px auto;
+    }
+
+    .dvOrderHowWorkIcon {
+        padding: 0px;
+        margin: 20px auto;
+        text-align: center;
+    }
+}
+
+.select_style {
+    appearance: none;
+    -moz-appearance: none; /* Firefox */
+    -webkit-appearance: none; /* Safari and Chrome */
+    background: #292627 url("/images/OrderPageDropdown.png") no-repeat scroll right center;
+    color: #999;
+    opacity: 0.75;
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.black_disabled { background: #000; }
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .dvOrderFormBG {
+     /*   background-image: none;
+      background-size:contain;
+      background-repeat:no-repeat;
+        display: inline-block;
+        height: auto;
+        background-color: transparent;*/
+        background-position: left;
+    }
+
+    .dvOrderFormCol1,
+    .dvOrderFormCol2,
+    .dvOrderFormCol3 {
+        width: 100%;
+        clear: both;
+        margin: auto auto 20px auto;
+    }
+
+    .dvOrderBottomBigText {
+        font-size: 24px;
+    }
+
+    .dvStateLeft,
+    .dvPickUpStateLeft {
+        width: 68%;
+    }
+
+    .dvStateRight,
+    .dvPickUpStateRight {
+        width: 30%;
+        margin: auto auto auto 2%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1210px) {
+
+    /*.dvOrderFormBG {
+        background-image: none;
+        display: inline-block;
+        height: auto;
+        background-color: #2B2829;
+    }*/
+
+    .dvOrderFormCol1 {
+        width: 25%;
+        max-width: 290px;
+    }
+
+    .dvOrderFormCol2 {
+        width: 40%;
+        max-width: 465px;
+        margin: auto 3% auto 2%;
+    }
+
+    .dvOrderFormCol3 {
+        width: 30%;
+        max-width: 354px;
+    }
+
+    .dvStateLeft {
+        width: 68%;
+        max-width: 180px;
+    }
+
+    .dvStateRight {
+        width: 30%;
+        max-width: 98px;
+        margin: auto auto auto 2%;
+    }
+
+    .dvPickUpStateLeft {
+        width: 68%;
+        max-width: 210px;
+    }
+
+    .dvPickUpStateRight {
+        width: 30%;
+        max-width: 132px;
+        margin: auto auto auto 2%;
+    }
+}
+
+/*Order Summary*/
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+    .osTopText {
+        font-size: 28px;
+    }
+
+    .osPointBigText {
+        font-size: 22px;
+    }
+
+    .dvOrderFormCol3 .form-control {
+        width: 100%;
+        clear: both;
+        margin: auto auto 20px auto;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .OrderSummaryBG {
+        display: none;
+       /* background-image: none;*/
+      /* background-size:contain;*/
+        display: inline-block;
+        height: auto;
+        background-color: #dcdbdb;
+        padding: 20px;
+        overflow: hidden;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 1000px) {
+    .osCCNumberCol,
+    .osCCExpDateCol,
+    .osCCCVVCol,
+    .osCCZipCol {
+        margin-bottom: 20px;
+    }
+}
+@media all and (max-width: 1220px) {
+.dvHomeBlackRow, .dvHomeHowWorkTotal{ display:inline-block; padding-bottom:15px;}
+}
+@media all and (max-width: 765px) {
+.dvFaqMiddle{ font-size:30px;}
+.dvWhatWeBannerText, .dvBannerGetsText, .dvBannerBecomeText{font-size:30px;}
+.FaqBannerOuter, .dvHomeBannerOuter{ margin-bottom:0px; margin-top:0px;}
+}
+@media all and (max-width: 550px) {
+.dvFaqMiddle{ font-size:26px;}
+.dvWhatWeBannerText, .dvBannerGetsText, .dvBannerBecomeText{ font-size:26px;}
+  .ContactBannerOuter{ margin-bottom:0px; margin-top:0px;}
+.ContactBannerIcon{margin-bottom:11px;}
+}
+
+@media all and (max-width: 700px) {
+.WhatWeDoOuter{margin:3% auto 18%;}
+}
+@media all and (max-width: 600px) { 
+.WhatWeDoOuter{margin:3% auto 8%;}
+}
+@media all and (max-width: 481px) { 
+.WhatWeDoOuter{margin:0 auto 5%;}
+}
+
+@media all and (max-width: 460px) { 
+.WhatWeDoOuter{margin:1px auto 5%;}
+.dvWhatWeBannerText{margin:10% auto 3%;}
+/*.whatwedo{background-size:100% 216px !important;}*/
+}
+
+@media all and (max-width: 700px) {
+.dvGetsBannerOuter{margin:17% auto 17%;}
+#GetBannerRow{margin-bottom:0px;}
+}
+@media all and (max-width: 690px) {
+.dvGetsBannerOuter{margin:17% auto 10%;}
+}
+
+@media all and (max-width: 560px) {
+.dvGetsBannerOuter{margin:9% auto 10%;}
+}
+@media all and (max-width: 500px) {
+.dvBannerGetsText{margin-bottom:50px;}
+ .featured-gets{background-size:auto 21% !important; /*background-position: -90px top !important;*/}
+ .dvGetsBannerOuter{margin:7% auto 0%;}
+#GetBannerRow{margin-bottom:0px; padding:13px 0 20px;}
+}
+
+@media all and (max-width: 552px) {
+/*.featured-gets{background-size:auto 11% !important; }*/
+.featured-gets{background-size: 100% 6% !important; }
+
+
+}
+ 
+
+
+@media all and (max-width: 610px) {
+.FaqBannerIcon{margin:8% auto;}
+
+}
+@media all and (max-width: 526px) {
+.FaqBannerIcon{margin:4% auto;}
+
+}
+@media all and (max-width: 500px) {
+.dvFaqMiddle{padding:10px 0;}
+.faq{background-size:100% 263px !important;}
+
+}
+
+
+@media all and (max-width: 700px) {
+.dvBannerOuter{margin:18% auto;}
+}
+@media all and (max-width: 500px) {
+.become-a-go-getter{ /*background-size:100% 300px !important;*/ background-size: cover; }
+.dvBannerOuter{margin:49px auto 66px;}
+.dvBannerApplyNow{margin-bottom:50px;}
+#dvBecomeAGetterTotal{margin:0px; padding:10px 0 20px;}
+}
+
+ 
+#dvStepOneAlertDiv{margin:10px 0;}
+
+@media all and (max-width: 700px) {
+.ContactBannerOuter{margin:1% auto 2%;}
+}
+
+@media all and (max-width: 570px) {
+.contact-us{background-size:100% 400px !important;}
+}
+@media all and (max-width: 540px) {
+ 
+.dvContactMiddle{padding:10px 0;}
+}
+ 
+
+@media all and (max-width: 700px) {
+.dvOrderBottomBigText{margin:10% auto 5%;}
+.dvOrderHowItWorkBG{padding:25px 0;}
+.dvOrderFormRow{margin:35px auto 11px;}
+}
+
+
+@media all and (max-width: 490px) {
+.dvOrderBottomBigText{margin:10% auto 0%;}
+}
+@media all and (max-width: 454px) {
+.dvOrderBottomBigText{margin:4% auto 0%;}
+/*.dvOrderFormBG{background-size:100% 155px;}*/
+}
+@media all and (max-width: 330px) {
+.FaqBottomBigText{margin:10px auto 12px;}
+}
+@media all and (max-width: 700px) {
+.OrderSummaryBG{/*background-size:100% 300px;*/ background-image: none;}
+.osTopText{margin:22% auto 23%;}
+.dvOrderHowWorkBigText{padding-top:0px;}
+}
+@media all and (max-width: 600px) {
+.OrderSummaryBG{background-size:100% 240px;}
+.osTopText{margin:83px auto 123px;}
+}
+
+@media all and (max-width: 764px) {
+.dvMapRight{padding:10px 0 0 0;}
+.wdCostOuter{padding:0px;}
+.wdCostBigText{margin:10px auto 15px;}
+.wdHourBigText{margin:10px auto;}
+.wdHourBG .wdHourBigText{margin:60px auto 20px;}
+}
+@media all and (max-width: 550px) {
+.wdHourBG .wdHourBigText{margin:85px auto 20px;}
+}
+.phoneBlue{color:blue !important;}
+#dvContactAlertDiv{padding:10px 0;}
+
+/*.navbar-collapse.in{overflow-y:visible;}
+.navbar-nav{width:100%;}*/
+
+
+.NewFeaturedRow {
+    background: #ffffff;
+    padding: 50px 0px 0px 0px;  
+    width:100%;
+}
+.NewFeaturedRow .form-group{
+  margin-bottom:40px;
+  overflow:hidden;
+  max-width:965px;
+}
+.paddingZero{
+padding:0px;
+}
+.FeaturedLogoText{
+  padding-top:15px;
+}
+#GetBannerRow .col-md-3 {
+    width: 24%;
+}
+.food {
+    margin-bottom: 32px;
+}
+@media all and (max-width: 990px) {
+#GetBannerRow .col-md-3 {
+    width: 100%;
+}
+.food {
+    margin-bottom: 10px;
+}
+}
+.dvNew_Home_Work_Inner_Row{
+width:100%;
+max-width:860px;
+margin:auto;
+}
+.whito, #whito {
+    background-color: white;
+}
+#New_Home_Work_Outer_Row .dvHomeHowWorkIconText{
+/*color:#252525;*/
+color:#000000;
+text-transform:uppercase;
+line-height: 20px;
+}
+.New_Home_Services_Img_Block{
+width:255px;
+float:left;
+}
+.New_Home_Or_Text{
+font-size:14px;
+color:#FFE700;
+float:left;
+font-weight: bold;
+/*margin:110px 10px 0px 10px;*/
+margin:17% 10px 0px 10px;
+
+}
+#dvNew_Home_Services_Row .dvHomeBlackRow{
+max-width:1175px;
+}
+@media all and (max-width: 991px) {
+    .New_Home_Services_Img_Block{
+    width:100%;
+    margin:auto;
+    float:none;
+    text-align:center;
+    }
+    .New_Home_Or_Text{
+    float:none;
+    margin:20px auto;
+    width:100%;
+    text-align:center;
+    }
+}
+
+@media all and (min-width: 992px) and (max-width: 1200px) {
+    .New_Home_Services_Img_Block{
+    width:215px;
+    }
+    .New_Home_Or_Text{
+    margin: 17% 0 0 0;
+    }
+}
+
+/*Home Video css*/
+.fullscreen-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+  /*opacity: 0.50;*/
+}
+
+.fullscreen-bg__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    height: 300%;
+    top: -100%;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: 300%;
+    left: -100%;
+  }
+}
+
+.link-acount{
+    /*font-size: 20px;
+    font-weight: 300;
+    color: #E1E1E1;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;*/
+
+        font-size: 22px;
+    background-color: #000;
+    width: 149px;
+    height: 48px;
+    text-transform: uppercase;
+    border-radius: 24px;
+    margin: auto;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 9px;
+    float: right;
+    color: #fff;
+
+}
+.link-acount > a,.link-acount > a:hover, .link-acount > a:focus
+{
+    color: #fff !important;
+}
+
+
+
+/*@media (max-width: 767px) {
+  .fullscreen-bg {
+    background: url('../img/videoframe.jpg') center center / cover no-repeat;
+  }
+
+  .fullscreen-bg__video {
+    display: none;
+  }
+}*/
+
+@media (max-width: 992px){
+.dvHomeBannerLoginText {
+    margin-left: 0px;
+}
+
+
+}
+
+.modal-body {
+    position: relative;
+    padding: 0px;
+}
+
+#loginModal .modal-body{
+ position: relative;
+    padding: 0px;
+    padding-top: 30px;
+
+}
+
+/*featured*/
+.contenedor-featured {
+    line-height: 27px;
+    margin: -1% auto 13% auto;
+
+}
+
+.featured-titulo {
+    color: #ffffff;
+    font-size: 41px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.dvsubtextfeatured {
+    color: #ffffff;
+    font-size: 38px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+@media (max-width: 992px){
+
+    .featured-titulo {
+        font-size: 35px;
+    }
+
+    .dvsubtextfeatured{
+        font-size: 30px;
+    }
+
+}
+
+@media (max-width: 992px){
+
+    .contenedor-featured {
+    line-height: 25px;
+    margin: -7% auto auto auto;
+}
+
+
+}
+
+@media (max-width:500px){
+
+    .featured-titulo {
+        font-size: 20px;
+    }
+
+    .dvsubtextfeatured{
+         font-size: 20px;
+    }
+}
+
+
+/*css nuevo about us*/
+.texto-titulo{
+    color: #ffffff;
+    font-size: 54px;
+    font-weight: 200;
+    text-align: center;
+    margin: 13% 0% 16% 0%;
+    font-weight: 400;
+}
+
+@media (max-width: 700px){
+    .texto-titulo {
+    font-size: 40px;
+    margin: 7% 0% 10% 0%;
+
+    }
+
+
+}
+
+@media (max-width: 375px){
+    .texto-titulo {
+    font-size: 30px;
+    
+    }
+
+    .whatwedo {
+       background-size: 100% 290px !important;
+    }
+
+
+}
+
+@media (min-width: 700px)  and  (max-width: 800px){
+
+.texto-titulo {
+
+    margin: 13% 0% 11% 0%;
+}
+
+}
+
+
+
+
+.fondo_aboutsec2{
+background-image: url('/images/section02_about.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+@media (max-width:  600px){
+        .fondo_aboutsec2{
+            background-image: none;
+            background-color: #FFFFFF;
+        }
+
+}
+
+.titulo-sec2{
+    font-size: 35px;
+    color: #000000;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+    .textosec2{
+    color: #000000;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 300;
+    padding-top: 20px;
+
+    }
+    
+.textosec2_1{
+    color: #000000;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 300;
+        padding-top: 20px;   
+
+    }
+
+    .textosec2_3{
+    color: #000000;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 300;
+     padding-top: 20px;
+     margin-bottom: 13%;
+
+    }
+
+
+.titulo-delivery-about{
+    font-size: 35px;
+    color: #000000;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.fondo-deliverytext{
+background-color: #ebebeb;
+
+}
+
+.subtext-delivery{
+    font-size: 17px;
+    color: #000000;
+    padding-top: 35px;
+    text-align: center;
+    line-height: 25px;
+
+}
+
+.subtext-delivery-last{
+    font-size: 17px;
+    color: #000000;
+    padding-top: 20px;
+    text-align: center;
+   /*margin-bottom: 35px;+*/
+
+
+}
+
+.altura-mapa{
+    height: 312px;
+
+
+}
+
+.fondo-payment{
+background-color: #ffffff;
+color: #000000;
+
+
+}
+
+.titulo-payment{
+
+    text-align: center;
+    font-size: 37px;
+    color: #000000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.tit-payment{
+
+font-size: 20px;
+text-align: center;
+font-weight: 500;
+padding-top: 20px;
+}
+
+.parrafo-pay{
+font-size: 20px;
+text-align: center;
+    font-weight: 300;
+
+}
+
+.fondo-pricing{
+background-image: url('/images/section05_about.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #000000;
+      font-size: 17px;
+
+
+}
+
+.content-pricing{
+
+        margin-top: 6%;
+    margin-bottom: 6%;
+        text-align: center;
+
+}
+
+.tit-pricing{
+text-align: center;
+    font-size: 35px;
+    color: #000000;
+        padding-bottom: 15px;
+
+}
+
+
+.tit-pricing-text2{
+    padding-top: 20px;
+
+}
+.tit-pricing-text3{
+    padding-top: 20px;
+        text-indent: 1.2cm;
+
+}
+
+.fondo-time{
+  background-image: url('/images/section06_about.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.titulo-time{
+    text-align: center;
+    font-size: 35px;
+    color: #000000;
+    padding-bottom: 15px;
+
+}
+
+.subtex-time{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 300;
+    color: #000000;
+        margin-bottom: 17%;
+            line-height: 23px;
+
+}
+
+.content-time{
+
+margin-top: 8%;
+}
+
+
+.fondo-contac-about{
+ background-image: url('/images/section07_about.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+.titu-about-footer{
+text-align: center;
+    font-size: 35px;
+    color: #000000;
+    padding-bottom: 15px;
+    margin-top: 10%;
+
+}
+
+.subtex-about-footer{
+     font-size: 20px;
+    text-align: center;
+    font-weight: 300;
+    color: #000000;
+    padding-top: 10px;
+    
+
+}
+
+.number-footer{
+font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+
+}
+
+
+.btn-footer-abut{
+    background-color: #020202;
+    border-radius: 35px;
+    height: 50px;
+      margin-top: 11%;
+    margin-bottom: 17%;
+
+}
+
+
+.text-btn-about{
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+        padding: 11px 2px 0px 1px;
+
+}
+

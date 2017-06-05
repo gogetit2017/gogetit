@@ -1,0 +1,84 @@
+2017-04-27 10:00:12,680 [WIN-TLKRGH5LTV1][Thread:17][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.InvalidOperationException: Sequence contains more than one element
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at GoGetIt.ZipCodeController.GetZipCodeIDByZipCode(String ZipCode)
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-04-27 10:00:40,460 [WIN-TLKRGH5LTV1][Thread:24][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.InvalidOperationException: Sequence contains more than one element
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at GoGetIt.ZipCodeController.GetZipCodeIDByZipCode(String ZipCode)
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-04-27 10:00:53,678 [WIN-TLKRGH5LTV1][Thread:24][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.InvalidOperationException: Sequence contains more than one element
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at GoGetIt.ZipCodeController.GetZipCodeIDByZipCode(String ZipCode)
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-04-27 10:02:10,504 [WIN-TLKRGH5LTV1][Thread:22][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.InvalidOperationException: Sequence contains more than one element
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at GoGetIt.ZipCodeController.GetZipCodeIDByZipCode(String ZipCode)
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-04-27 10:02:20,159 [WIN-TLKRGH5LTV1][Thread:17][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.InvalidOperationException: Sequence contains more than one element
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at GoGetIt.ZipCodeController.GetZipCodeIDByZipCode(String ZipCode)
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-04-27 10:03:20,626 [WIN-TLKRGH5LTV1][Thread:19][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.InvalidOperationException: Sequence contains more than one element
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at GoGetIt.ZipCodeController.GetZipCodeIDByZipCode(String ZipCode)
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-04-27 10:14:09,213 [WIN-TLKRGH5LTV1][Thread:24][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.InvalidOperationException: Sequence contains more than one element
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at GoGetIt.ZipCodeController.GetZipCodeIDByZipCode(String ZipCode)
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-04-27 10:19:46,732 [WIN-TLKRGH5LTV1][Thread:22][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-04-27 10:36:40,118 [WIN-TLKRGH5LTV1][Thread:7][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-04-27 10:37:35,523 [WIN-TLKRGH5LTV1][Thread:11][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-04-27 10:57:29,168 [WIN-TLKRGH5LTV1][Thread:32][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.InvalidOperationException: Sequence contains more than one element
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at GoGetIt.ZipCodeController.GetZipCodeIDByZipCode(String ZipCode)
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-04-27 11:15:19,021 [WIN-TLKRGH5LTV1][Thread:37][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-04-27 11:16:44,956 [WIN-TLKRGH5LTV1][Thread:38][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-04-27 11:17:53,375 [WIN-TLKRGH5LTV1][Thread:14][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-04-27 11:42:22,058 [WIN-TLKRGH5LTV1][Thread:33][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.InvalidOperationException: Sequence contains more than one element
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at GoGetIt.ZipCodeController.GetZipCodeIDByZipCode(String ZipCode)
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-04-27 11:42:34,901 [WIN-TLKRGH5LTV1][Thread:33][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.InvalidOperationException: Sequence contains more than one element
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at GoGetIt.ZipCodeController.GetZipCodeIDByZipCode(String ZipCode)
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-04-27 11:42:59,057 [WIN-TLKRGH5LTV1][Thread:34][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.InvalidOperationException: Sequence contains more than one element
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at GoGetIt.ZipCodeController.GetZipCodeIDByZipCode(String ZipCode)
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-04-27 11:43:34,602 [WIN-TLKRGH5LTV1][Thread:18][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.InvalidOperationException: Sequence contains more than one element
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at GoGetIt.ZipCodeController.GetZipCodeIDByZipCode(String ZipCode)
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-04-27 11:44:07,351 [WIN-TLKRGH5LTV1][Thread:27][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.InvalidOperationException: Sequence contains more than one element
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at GoGetIt.ZipCodeController.GetZipCodeIDByZipCode(String ZipCode)
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-04-27 11:44:20,929 [WIN-TLKRGH5LTV1][Thread:31][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.InvalidOperationException: Sequence contains more than one element
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at GoGetIt.ZipCodeController.GetZipCodeIDByZipCode(String ZipCode)
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-04-27 11:48:12,577 [WIN-TLKRGH5LTV1][Thread:34][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.InvalidOperationException: Sequence contains more than one element
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at GoGetIt.ZipCodeController.GetZipCodeIDByZipCode(String ZipCode)
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-04-27 15:31:13,607 [WIN-TLKRGH5LTV1][Thread:50][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)
+2017-04-27 17:00:54,215 [WIN-TLKRGH5LTV1][Thread:54][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at GoGetIt.OrderController.Save(String Operation, GRI_Order or)

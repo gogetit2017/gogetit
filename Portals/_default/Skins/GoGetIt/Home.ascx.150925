@@ -1,0 +1,206 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Home.ascx.cs" Inherits="Christoc.Skins.HammerFlex.Home" %><%@ Register TagPrefix="dnn" TagName="USER" Src="~/Admin/Skins/User.ascx" %>
+<%@ Register TagPrefix="dnn" TagName="LOGIN" Src="~/Admin/Skins/Login.ascx" %>
+
+<%@ Register TagPrefix="dnn" TagName="PRIVACY" Src="~/Admin/Skins/Privacy.ascx" %>
+<%@ Register TagPrefix="dnn" TagName="TERMS" Src="~/Admin/Skins/Terms.ascx" %>
+<%@ Register TagPrefix="dnn" TagName="COPYRIGHT" Src="~/Admin/Skins/Copyright.ascx" %>
+<%@ Register TagPrefix="dnn" TagName="JQUERY" Src="~/Admin/Skins/jQuery.ascx" %>
+<%@ Register TagPrefix="dnn" TagName="META" Src="~/Admin/Skins/Meta.ascx" %>
+<%@ Register TagPrefix="dnn" TagName="MENU" Src="~/DesktopModules/DDRMenu/Menu.ascx" %>
+<%@ Register TagPrefix="dnn" Namespace="DotNetNuke.Web.Client.ClientResourceManagement" Assembly="DotNetNuke.Web.Client" %>
+
+<dnn:META ID="mobileScale" runat="server" Name="viewport" Content="width=device-width,initial-scale=1" />
+
+<dnn:JQUERY ID="dnnjQuery" runat="server" jQueryHoverIntent="true" />
+<dnn:DnnJsInclude ID="bootstrapJS" runat="server" FilePath="js/bootstrap.min.js" PathNameAlias="SkinPath" Priority="10" />
+<dnn:DnnCssInclude ID="bootStrapCSS" runat="server" FilePath="css/bootstrap.min.css" PathNameAlias="SkinPath" Priority="14" />
+<dnn:DnnJsInclude ID="bluImpJS" runat="server" FilePath="js/jquery.blueimp-gallery.min.js" PathNameAlias="SkinPath" />
+
+<dnn:dnncssinclude id="goGetItCSS" runat="server" filepath="css/GoGetIt.css" pathnamealias="SkinPath" priority="15" />
+
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,200' rel='stylesheet' type='text/css'>
+ <link href="/js/AlertModal.css" rel="stylesheet" type="text/css" />
+    <script src="/js/bootstrap.min.js"></script>
+    
+
+<div class="navbar navbar-default" role="navigation">
+  
+    <div class="container">
+	  
+	<div id="SignUpPane" runat="server" class="col-md-12" />
+		
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="navbar-brand">
+			
+                <div class="dvLogoPane" id="logopane" >
+				<a href="/home.aspx" ><img src="/images/Logo.png" /></a>
+				</div>
+            </div>
+        </div>
+        <div class="navbar-collapse collapse">
+	
+            <dnn:MENU MenuStyle="BootStrapNav" runat="server"></dnn:MENU>
+			
+
+            <ul class="nav navbar-nav navbar-right">
+               
+            </ul>
+        </div>
+        <!--/.nav-collapse -->
+    </div>
+</div>
+
+
+
+<div id="CarouselPane" runat="server" class="carousel slide" containertype="G" containername="HammerFlex" containersrc="Blank.ascx" />
+
+
+
+<div class="container">
+    <!--/Logo-->
+
+    <div id="TopContent" class="row">
+        <div id="TopPane" runat="server" class="col-md-12" />
+    </div>
+
+    <div id="Content" class="row">
+        <div id="ContentPane" runat="server" class="col-md-9" />
+        <div id="RightPane" runat="server" class="col-md-3" />
+    </div>
+    <div id="MidContent" class="row">
+        <div id="ThirdRowLeft" runat="server" class="col-md-4" />
+        <div id="ThirdRowMiddle" runat="server" class="col-md-4" />
+        <div id="ThirdRowRight" runat="server" class="col-md-4" />
+    </div>
+    <div id="ContentLeftCol" class="row">
+        <div id="LeftPane" runat="server" class="col-md-3" />
+        <div id="ContentPaneRight" runat="server" class="col-md-9" />
+    </div>
+    <div id="UserProfile" class="row">
+        <div id="UserProfileLeft" runat="server" class="col-md-2" />
+        <div id="UserProfileContent" runat="server" class="col-md-10" />
+    </div>
+    <div id="BottomContent" class="row">
+
+        <div id="BottomPane" runat="server" class="col-md-12" />
+    </div>    
+</div>
+
+<div id="FooterRow" class="" style="">
+
+        <!--<div id="FooterRowLeft" runat="server" class="col-md-4" />
+        <div id="FooterRowMiddle" runat="server" class="col-md-4" />
+        <div id="FooterRowRight" runat="server" class="col-md-4" />
+
+        <div id="FooterPane" runat="server" class="col-md-12" />
+        <div id="CopyRightPane" class="SkinLink col-md-12 center">                      
+        </div>-->
+		
+		<div class="col-md-12">
+    <div class="container">
+        <div class="dvFootercolumnOne">
+            <div style="font-size:12px;color:#999999;text-transform:uppercase;font-weight:100;">© 2015 GoGetIt.com, All Rights Reserved.</div>
+        </div>
+		<div class="dvFootercolumnTwo">
+            <div class="dvFooterLinks" style="display:none;"><a href="/whatweare.aspx" >Who we are</a></div>
+			<div class="dvFooterLinks" ><a href="/whatwedo.aspx" >What we do</a></div>
+			<div class="dvFooterLinks" style="width:50px;" ><a href="/faq.aspx" >faq</a></div>
+			<div class="dvFooterLinks" style="width:120px;"><a href="/featured-gets.aspx" >Featured gets</a></div>
+			<div class="dvFooterLinks" style="width:130px;"><a href="/Become-A-Go-Getter" >Become a getter</a></div>
+			<div class="dvFooterLinks"><a href="/Contact-Us" >contact us</a></div>
+			<div class="dvFooterLinks" style="width:50px;"><a href="/home.aspx" >Home</a></div>			
+        </div>
+		<div class="dvFootercolumnThree">
+		<div class="dvFooterIcon">
+		<a target="_blank" href="https://www.facebook.com/gogetitmiami">
+		<img src="/images/FbIcn.png" />
+		</a>
+		</div>
+		<div class="dvFooterIcon">
+		<a target="_blank" href="https://www.linkedin.com/company/gogetit---delivering-anything-from-anywhere?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A10104925%2Cidx%3A1-2-2%2CtarId%3A1438953376462%2Ctas%3Agogetit">
+		<img src="/images/LinkdeinIcn.png" />
+		</a>
+		</div>
+		<div class="dvFooterIcon">
+		<a target="_blank" href="https://instagram.com/gogetitmiami">
+		<img src="/images/InstagramIcn.png" />
+		</a>
+		</div>
+		</div>
+        <div class="col-md-12 text-center">
+            <div class="dvFooterLinks" style="width:100%;float:none;"><a href="/PrivacyPolicy" >Privacy Policy</a> &nbsp;|&nbsp; <a href="/TOS" >Terms of Service</a></div>			
+        </div>
+    </div>
+</div>
+ </div>
+ 
+    <div class="modal fade" id="modalHomeError" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <%-- <div class="modal-header">
+                       
+                        <h4 class="modal-title">Modal Header</h4>
+                    </div>--%>
+                    <div class="modal-body">
+                        <button style="padding: 7px;" type="button" class="close" data-dismiss="modal">&times;</button>
+                        <div id="dvHomeError"></div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+		 
+    <script src="/js/jquery.validator.min.js"></script>
+<script type="text/javascript">
+
+<!--Go Get it-->
+$('.dvHomeBannerRight').click(function(event){
+	 var validate = new Validator({ validation_group: 'OrderHomeForm', error_class: 'error' });
+        validate.validate({ 
+			ddlHomeDeliveryType: 'Delivery type is required.', 
+			ddlZipCode: 'Zipcode is required.' });
+        if (validate.error == undefined) {
+            $("#dvHomeError").html('');
+			var Link="DeliveryType="+encodeURIComponent($('#ddlHomeDeliveryType').val())+"&Zipcode="+ jQuery('#ddlZipCode option:selected').text() +"&ZipcodeID="+ jQuery('#ddlZipCode option:selected').val();
+			
+			window.location="/order?"+Link;
+        }
+        else {
+            $("#dvHomeError").html('<div class="alert alert-danger">' + validate.error + '</div>');
+            $("#modalHomeError").modal('show');
+            return false;
+        }
+}); 
+
+function toUpper(obj) {
+    var mystring = obj;
+	mystring = mystring.substring(0, 1).toUpperCase() + mystring.substring(1);
+	return mystring;
+}
+// Adding class to body
+$(document).ready(function (e) {
+    var pathname = window.location.pathname;
+    var fullPageName = pathname.substring((pathname.lastIndexOf("/") + 1));
+    var className = fullPageName.replace(".aspx", "");
+    $('body').addClass(' '+className+' '+className.toLowerCase() +' ' + toUpper(className.toLowerCase()));
+	if (className==""){
+		$('body').addClass('home');	
+	}
+	  $('.ModDNNFAQsC a').click();
+    $('.ModDNNFAQsC a').attr('onclick', '');
+	
+});
+
+</script>
+<style  >
+.dvHomeBannerRight{cursor:pointer;}
+</style>

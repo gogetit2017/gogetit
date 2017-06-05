@@ -1,0 +1,27 @@
+2016-05-01 12:03:38,488 [WIN-TLKRGH5LTV1][Thread:13][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.UnauthorizedAccessException: Access to the path 'C:\inetpub\wwwroot\Install\Temp\epop4cjt\DataProviders.DnnApiEndpoint\SqlDataProvider' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.InternalCreateDirectory(String fullPath, String path, Object dirSecurityObj, Boolean checkHost)
+   at DotNetNuke.Services.Installer.Util.WriteStream(Stream sourceStream, String destFileName)
+   at DotNetNuke.Services.Installer.InstallFile.ReadZip(ZipInputStream unzip, ZipEntry entry)
+   at DotNetNuke.Services.Installer.InstallerInfo.ReadZipStream(Stream inputStream, Boolean isEmbeddedZip)
+   at DotNetNuke.Modules.Admin.Extensions.Install.wizInstall_NextButtonClick(Object sender, WizardNavigationEventArgs e)
+   at System.Web.UI.WebControls.Wizard.OnNextButtonClick(WizardNavigationEventArgs e)
+   at System.Web.UI.WebControls.Wizard.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2016-05-01 12:03:38,534 [WIN-TLKRGH5LTV1][Thread:13][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=64&error=Access+to+the+path+%27C%3a%5cinetpub%5cwwwroot%5cInstall%5cTemp%5cepop4cjt%5cDataProviders.DnnApiEndpoint%5cSqlDataProvider%27+is+denied.
+System.UnauthorizedAccessException: Access to the path 'C:\inetpub\wwwroot\Install\Temp\epop4cjt\DataProviders.DnnApiEndpoint\SqlDataProvider' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.InternalCreateDirectory(String fullPath, String path, Object dirSecurityObj, Boolean checkHost)
+   at DotNetNuke.Services.Installer.Util.WriteStream(Stream sourceStream, String destFileName)
+   at DotNetNuke.Services.Installer.InstallFile.ReadZip(ZipInputStream unzip, ZipEntry entry)
+   at DotNetNuke.Services.Installer.InstallerInfo.ReadZipStream(Stream inputStream, Boolean isEmbeddedZip)
+   at DotNetNuke.Modules.Admin.Extensions.Install.wizInstall_NextButtonClick(Object sender, WizardNavigationEventArgs e)
+   at System.Web.UI.WebControls.Wizard.OnNextButtonClick(WizardNavigationEventArgs e)
+   at System.Web.UI.WebControls.Wizard.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2016-05-01 16:06:37,835 [WIN-TLKRGH5LTV1][Thread:7][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException (0x80004005): A potentially dangerous Request.Path value was detected from the client (:).
+   at System.Web.HttpRequest.ValidateInputIfRequiredByConfig()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
